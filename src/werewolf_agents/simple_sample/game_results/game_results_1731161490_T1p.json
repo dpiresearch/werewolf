@@ -1,0 +1,107 @@
+{
+  "activity_id": "1731161490_T1p",
+  "players": [
+    "James",
+    "Ling",
+    "John",
+    "Aarav",
+    "Yuki",
+    "Ramesh",
+    "Arjun",
+    "Astrid"
+  ],
+  "game_status": "ended",
+  "player_roles": {
+    "Aarav": "wolf",
+    "Ling": "wolf",
+    "Arjun": "seer",
+    "Yuki": "doctor",
+    "James": "villager",
+    "Ramesh": "villager",
+    "John": "villager",
+    "Astrid": "villager"
+  },
+  "success_game_stats": {
+    "winner": "WOLVES",
+    "vote_history": {
+      "wolf_votes": {
+        "0": {
+          "Ling": "Yuki",
+          "Aarav": "John"
+        },
+        "1": {
+          "Ling": "Arjun",
+          "Aarav": "John"
+        }
+      },
+      "doctors_save": {
+        "0": "James",
+        "1": null
+      },
+      "alive_players_votes": {
+        "0": {
+          "Aarav": "Ramesh",
+          "Arjun": "Ramesh",
+          "James": "Ramesh",
+          "John": "Ramesh",
+          "Ling": "Ramesh",
+          "Astrid": "Ramesh",
+          "Ramesh": "Arjun"
+        },
+        "1": {
+          "John": "Astrid",
+          "James": "Astrid",
+          "Aarav": "Astrid",
+          "Astrid": "John",
+          "Ling": "Astrid"
+        }
+      }
+    },
+    "total_rounds": 2,
+    "round_wise_alive_players": {
+      "0": [
+        "James",
+        "Ling",
+        "John",
+        "Aarav",
+        "Arjun",
+        "Astrid"
+      ],
+      "1": [
+        "James",
+        "Ling",
+        "John",
+        "Aarav"
+      ]
+    },
+    "last_standing_players": [
+      "James",
+      "Ling",
+      "John",
+      "Aarav"
+    ],
+    "player_errors": {}
+  },
+  "failure_game_stats": null,
+  "running_game_stats": null,
+  "logs": {
+    "Ling": "transcripts/Ling_1731161490_T1p_log.txt",
+    "John": "transcripts/John_1731161490_T1p_log.txt",
+    "Aarav": "transcripts/Aarav_1731161490_T1p_log.txt",
+    "Yuki": "transcripts/Yuki_1731161490_T1p_log.txt",
+    "Ramesh": "transcripts/Ramesh_1731161490_T1p_log.txt",
+    "Arjun": "transcripts/Arjun_1731161490_T1p_log.txt",
+    "Astrid": "transcripts/Astrid_1731161490_T1p_log.txt",
+    "James": "transcripts/James_1731161490_T1p_log.txt"
+  },
+  "transcripts": {
+    "Ling": "transcripts/Ling_1731161490_T1p_transcript.jsonl",
+    "John": "transcripts/John_1731161490_T1p_transcript.jsonl",
+    "Aarav": "transcripts/Aarav_1731161490_T1p_transcript.jsonl",
+    "Yuki": "transcripts/Yuki_1731161490_T1p_transcript.jsonl",
+    "Ramesh": "transcripts/Ramesh_1731161490_T1p_transcript.jsonl",
+    "Arjun": "transcripts/Arjun_1731161490_T1p_transcript.jsonl",
+    "Astrid": "transcripts/Astrid_1731161490_T1p_transcript.jsonl",
+    "James": "transcripts/James_1731161490_T1p_transcript.jsonl"
+  }
+}

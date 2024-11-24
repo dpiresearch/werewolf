@@ -1,0 +1,42 @@
+{
+  "activity_id": "1731005518_y5n",
+  "players": [
+    "John",
+    "Wei",
+    "Olivia",
+    "Fredrik",
+    "Chen",
+    "Ananya",
+    "Michael",
+    "James"
+  ],
+  "game_status": "terminated",
+  "failure_game_stats": {
+    "faulty_players": [
+      "James"
+    ],
+    "termination_code": "AGENT_FAILURE",
+    "termination_reason": "player agent James exited",
+    "traceback": "\"  File \\\"/usr/local/lib/python3.12/site-packages/nio/client/async_client.py\\\", line 823, in _send\\n    await self.receive_response(resp)\\n  File \\\"/usr/local/lib/python3.12/site-packages/nio/client/async_client.py\\\", line 723, in receive_response\\n    await self._handle_sync(response)\\n  File \\\"/usr/local/lib/python3.12/site-packages/nio/client/async_client.py\\\", line 690, in _handle_sync\\n    await self._handle_joined_rooms(response)\\n  File \\\"/usr/local/lib/python3.12/site-packages/nio/client/async_client.py\\\", line 617, in _handle_joined_rooms\\n    await cb.execute(event, room)\\n  File \\\"/usr/local/lib/python3.12/site-packages/nio/client/base_client.py\\\", line 131, in execute\\n    await result\\n  File \\\"/usr/local/lib/python3.12/site-packages/sentient_messenger/matrix/client.py\\\", line 236, in _on_any_room_event\\n    await channel.on_room_event(room, event)\\n  File \\\"/usr/local/lib/python3.12/site-packages/sentient_messenger/matrix/channel.py\\\", line 323, in on_room_event\\n    await self._on_message_event(room, event)\\n  File \\\"/usr/local/lib/python3.12/site-packages/sentient_messenger/matrix/channel.py\\\", line 488, in _on_message_event\\n    await callback(self, notification_event)\\n  File \\\"/usr/local/lib/python3.12/site-packages/sentient_campaign/adapter/adapter.py\\\", line 43, in listien_for_messages\\n    await self.handle_action(channel, event, event.message)\\n  File \\\"/usr/local/lib/python3.12/site-packages/sentient_campaign/adapter/adapter.py\\\", line 133, in handle_action\\n    response: IResponse = await self.activity_actions.respond_action(message.id, message.sender, recipient, action)\\n                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\n  File \\\"/usr/local/lib/python3.12/site-packages/sentient_campaign/adapter/actions/werewolf_actions.py\\\", line 177, in respond_action\\n    raise e\\n  File \\\"/usr/local/lib/python3.12/site-packages/sentient_campaign/adapter/actions/werewolf_actions.py\\\", line 161, in respond_action\\n    response = await getattr(self, action.type)(\\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\n  File \\\"/usr/local/lib/python3.12/site-packages/sentient_campaign/adapter/actions/werewolf_actions.py\\\", line 338, in wolf_vote\\n    resp: ActivityResponse = await self._require_response(\\n                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\n  File \\\"/usr/local/lib/python3.12/site-packages/sentient_campaign/adapter/actions/werewolf_actions.py\\\", line 242, in _require_response\\n    response: ActivityResponse = await player_agent.async_respond(message)\\n                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\n  File \\\"/app/venv/lib/python3.12/site-packages/agent/super_simple.py\\\", line 68, in async_respond\\n    response = self.openai_client.chat.completions.create(\\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\n  File \\\"/usr/local/lib/python3.12/site-packages/openai/_utils/_utils.py\\\", line 274, in wrapper\\n    return func(*args, **kwargs)\\n           ^^^^^^^^^^^^^^^^^^^^^\\n  File \\\"/usr/local/lib/python3.12/site-packages/openai/resources/chat/completions.py\\\", line 815, in create\\n    return self._post(\\n           ^^^^^^^^^^^\\n  File \\\"/usr/local/lib/python3.12/site-packages/openai/_base_client.py\\\", line 1277, in post\\n    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))\\n                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\n  File \\\"/usr/local/lib/python3.12/site-packages/openai/_base_client.py\\\", line 954, in request\\n    return self._request(\\n           ^^^^^^^^^^^^^^\\n  File \\\"/usr/local/lib/python3.12/site-packages/openai/_base_client.py\\\", line 1058, in _request\\n    raise self._make_status_error_from_response(err.response) from None\\nopenai.NotFoundError: 404 Not Found\\n\""
+  },
+  "logs": {
+    "John": "transcripts/John_1731005518_y5n_log.txt",
+    "Wei": "transcripts/Wei_1731005518_y5n_log.txt",
+    "Olivia": "transcripts/Olivia_1731005518_y5n_log.txt",
+    "Fredrik": "transcripts/Fredrik_1731005518_y5n_log.txt",
+    "Chen": "transcripts/Chen_1731005518_y5n_log.txt",
+    "Ananya": "transcripts/Ananya_1731005518_y5n_log.txt",
+    "Michael": "transcripts/Michael_1731005518_y5n_log.txt",
+    "James": "transcripts/James_1731005518_y5n_log.txt"
+  },
+  "transcripts": {
+    "John": "transcripts/John_1731005518_y5n_transcript.jsonl",
+    "Wei": "transcripts/Wei_1731005518_y5n_transcript.jsonl",
+    "Olivia": "transcripts/Olivia_1731005518_y5n_transcript.jsonl",
+    "Fredrik": "transcripts/Fredrik_1731005518_y5n_transcript.jsonl",
+    "Chen": "transcripts/Chen_1731005518_y5n_transcript.jsonl",
+    "Ananya": "transcripts/Ananya_1731005518_y5n_transcript.jsonl",
+    "Michael": "transcripts/Michael_1731005518_y5n_transcript.jsonl",
+    "James": "transcripts/James_1731005518_y5n_transcript.jsonl"
+  }
+}

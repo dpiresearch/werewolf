@@ -1,0 +1,118 @@
+{
+  "activity_id": "1731213433_CXJ",
+  "players": [
+    "James",
+    "vihaan",
+    "Ling",
+    "John",
+    "Lars",
+    "Luca",
+    "Anna",
+    "Chen"
+  ],
+  "game_status": "ended",
+  "player_roles": {
+    "Chen": "wolf",
+    "Anna": "wolf",
+    "Luca": "seer",
+    "James": "doctor",
+    "Lars": "villager",
+    "vihaan": "villager",
+    "John": "villager",
+    "Ling": "villager"
+  },
+  "success_game_stats": {
+    "winner": "VILLAGERS",
+    "vote_history": {
+      "wolf_votes": {
+        "0": {
+          "Anna": "Luca",
+          "Chen": "Luca"
+        },
+        "1": {
+          "Anna": "Ling",
+          "Chen": "John"
+        },
+        "2": {
+          "Anna": "Lars"
+        }
+      },
+      "doctors_save": {
+        "0": "James",
+        "1": null,
+        "2": null
+      },
+      "alive_players_votes": {
+        "0": {
+          "James": "Lars",
+          "Ling": "James",
+          "Chen": "Anna",
+          "John": "James",
+          "vihaan": "James",
+          "Lars": "James",
+          "Anna": "James"
+        },
+        "1": {
+          "Anna": "Chen",
+          "John": "Chen",
+          "Lars": "Chen",
+          "Chen": "John",
+          "vihaan": "Chen"
+        },
+        "2": {
+          "John": "Anna",
+          "Anna": "vihaan",
+          "vihaan": "Anna"
+        }
+      }
+    },
+    "total_rounds": 3,
+    "round_wise_alive_players": {
+      "0": [
+        "vihaan",
+        "Ling",
+        "John",
+        "Lars",
+        "Anna",
+        "Chen"
+      ],
+      "1": [
+        "vihaan",
+        "John",
+        "Lars",
+        "Anna"
+      ],
+      "2": [
+        "vihaan",
+        "John"
+      ]
+    },
+    "last_standing_players": [
+      "vihaan",
+      "John"
+    ],
+    "player_errors": {}
+  },
+  "failure_game_stats": null,
+  "running_game_stats": null,
+  "logs": {
+    "vihaan": "transcripts/vihaan_1731213433_CXJ_log.txt",
+    "Ling": "transcripts/Ling_1731213433_CXJ_log.txt",
+    "John": "transcripts/John_1731213433_CXJ_log.txt",
+    "Lars": "transcripts/Lars_1731213433_CXJ_log.txt",
+    "Luca": "transcripts/Luca_1731213433_CXJ_log.txt",
+    "Anna": "transcripts/Anna_1731213433_CXJ_log.txt",
+    "Chen": "transcripts/Chen_1731213433_CXJ_log.txt",
+    "James": "transcripts/James_1731213433_CXJ_log.txt"
+  },
+  "transcripts": {
+    "vihaan": "transcripts/vihaan_1731213433_CXJ_transcript.jsonl",
+    "Ling": "transcripts/Ling_1731213433_CXJ_transcript.jsonl",
+    "John": "transcripts/John_1731213433_CXJ_transcript.jsonl",
+    "Lars": "transcripts/Lars_1731213433_CXJ_transcript.jsonl",
+    "Luca": "transcripts/Luca_1731213433_CXJ_transcript.jsonl",
+    "Anna": "transcripts/Anna_1731213433_CXJ_transcript.jsonl",
+    "Chen": "transcripts/Chen_1731213433_CXJ_transcript.jsonl",
+    "James": "transcripts/James_1731213433_CXJ_transcript.jsonl"
+  }
+}

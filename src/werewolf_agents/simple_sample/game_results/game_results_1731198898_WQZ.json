@@ -1,0 +1,117 @@
+{
+  "activity_id": "1731198898_WQZ",
+  "players": [
+    "James",
+    "Elise",
+    "Luca",
+    "Chen",
+    "Klaus",
+    "Arjun",
+    "Astrid",
+    "Myra"
+  ],
+  "game_status": "ended",
+  "player_roles": {
+    "Luca": "wolf",
+    "James": "wolf",
+    "Elise": "seer",
+    "Arjun": "doctor",
+    "Astrid": "villager",
+    "Klaus": "villager",
+    "Chen": "villager",
+    "Myra": "villager"
+  },
+  "success_game_stats": {
+    "winner": "VILLAGERS",
+    "vote_history": {
+      "wolf_votes": {
+        "0": {
+          "James": "Arjun",
+          "Luca": "Astrid"
+        },
+        "1": {
+          "Luca": "Elise"
+        },
+        "2": {
+          "Luca": "Astrid"
+        }
+      },
+      "doctors_save": {
+        "0": "Astrid",
+        "1": null,
+        "2": null
+      },
+      "alive_players_votes": {
+        "0": {
+          "Elise": "Luca",
+          "Luca": "James",
+          "Astrid": "James",
+          "Klaus": "James",
+          "Myra": "James",
+          "James": "Luca",
+          "Chen": "James"
+        },
+        "1": {
+          "Luca": "Klaus",
+          "Myra": "Klaus",
+          "Chen": "Klaus",
+          "Astrid": "Klaus",
+          "Klaus": "Luca"
+        },
+        "2": {
+          "Chen": "Luca",
+          "Myra": "Luca",
+          "Luca": "Myra"
+        }
+      }
+    },
+    "total_rounds": 3,
+    "round_wise_alive_players": {
+      "0": [
+        "Elise",
+        "Luca",
+        "Chen",
+        "Klaus",
+        "Astrid",
+        "Myra"
+      ],
+      "1": [
+        "Luca",
+        "Chen",
+        "Astrid",
+        "Myra"
+      ],
+      "2": [
+        "Chen",
+        "Myra"
+      ]
+    },
+    "last_standing_players": [
+      "Chen",
+      "Myra"
+    ],
+    "player_errors": {}
+  },
+  "failure_game_stats": null,
+  "running_game_stats": null,
+  "logs": {
+    "Elise": "transcripts/Elise_1731198898_WQZ_log.txt",
+    "Luca": "transcripts/Luca_1731198898_WQZ_log.txt",
+    "Chen": "transcripts/Chen_1731198898_WQZ_log.txt",
+    "Klaus": "transcripts/Klaus_1731198898_WQZ_log.txt",
+    "Arjun": "transcripts/Arjun_1731198898_WQZ_log.txt",
+    "Astrid": "transcripts/Astrid_1731198898_WQZ_log.txt",
+    "Myra": "transcripts/Myra_1731198898_WQZ_log.txt",
+    "James": "transcripts/James_1731198898_WQZ_log.txt"
+  },
+  "transcripts": {
+    "Elise": "transcripts/Elise_1731198898_WQZ_transcript.jsonl",
+    "Luca": "transcripts/Luca_1731198898_WQZ_transcript.jsonl",
+    "Chen": "transcripts/Chen_1731198898_WQZ_transcript.jsonl",
+    "Klaus": "transcripts/Klaus_1731198898_WQZ_transcript.jsonl",
+    "Arjun": "transcripts/Arjun_1731198898_WQZ_transcript.jsonl",
+    "Astrid": "transcripts/Astrid_1731198898_WQZ_transcript.jsonl",
+    "Myra": "transcripts/Myra_1731198898_WQZ_transcript.jsonl",
+    "James": "transcripts/James_1731198898_WQZ_transcript.jsonl"
+  }
+}

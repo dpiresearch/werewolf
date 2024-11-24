@@ -1,0 +1,121 @@
+{
+  "activity_id": "1731201133_MtS",
+  "players": [
+    "James",
+    "Aarav",
+    "Jian",
+    "Akira",
+    "Fredrik",
+    "Emma",
+    "Ingrid",
+    "Arjun"
+  ],
+  "game_status": "ended",
+  "player_roles": {
+    "Arjun": "wolf",
+    "Fredrik": "wolf",
+    "Emma": "seer",
+    "Aarav": "doctor",
+    "Jian": "villager",
+    "Ingrid": "villager",
+    "Akira": "villager",
+    "James": "villager"
+  },
+  "success_game_stats": {
+    "winner": "VILLAGERS",
+    "vote_history": {
+      "wolf_votes": {
+        "0": {
+          "Fredrik": "James",
+          "Arjun": "Aarav"
+        },
+        "1": {
+          "Fredrik": "Akira",
+          "Arjun": "Aarav"
+        },
+        "2": {
+          "Arjun": "Jian"
+        }
+      },
+      "doctors_save": {
+        "0": "Jian",
+        "1": "Jian",
+        "2": "Jian"
+      },
+      "alive_players_votes": {
+        "0": {
+          "Ingrid": "Emma",
+          "Jian": "Emma",
+          "Aarav": "Emma",
+          "Emma": "Akira",
+          "Akira": "Emma",
+          "Fredrik": "Emma",
+          "Arjun": "Emma"
+        },
+        "1": {
+          "Jian": "Fredrik",
+          "Aarav": "Fredrik",
+          "Fredrik": "Aarav",
+          "Ingrid": "Fredrik",
+          "Arjun": "Fredrik"
+        },
+        "2": {
+          "Ingrid": "Arjun",
+          "Jian": "Arjun",
+          "Aarav": "Arjun",
+          "Arjun": "Aarav"
+        }
+      }
+    },
+    "total_rounds": 3,
+    "round_wise_alive_players": {
+      "0": [
+        "Aarav",
+        "Jian",
+        "Akira",
+        "Fredrik",
+        "Ingrid",
+        "Arjun"
+      ],
+      "1": [
+        "Aarav",
+        "Jian",
+        "Ingrid",
+        "Arjun"
+      ],
+      "2": [
+        "Aarav",
+        "Jian",
+        "Ingrid"
+      ]
+    },
+    "last_standing_players": [
+      "Aarav",
+      "Jian",
+      "Ingrid"
+    ],
+    "player_errors": {}
+  },
+  "failure_game_stats": null,
+  "running_game_stats": null,
+  "logs": {
+    "Aarav": "transcripts/Aarav_1731201133_MtS_log.txt",
+    "Jian": "transcripts/Jian_1731201133_MtS_log.txt",
+    "Akira": "transcripts/Akira_1731201133_MtS_log.txt",
+    "Fredrik": "transcripts/Fredrik_1731201133_MtS_log.txt",
+    "Emma": "transcripts/Emma_1731201133_MtS_log.txt",
+    "Ingrid": "transcripts/Ingrid_1731201133_MtS_log.txt",
+    "Arjun": "transcripts/Arjun_1731201133_MtS_log.txt",
+    "James": "transcripts/James_1731201133_MtS_log.txt"
+  },
+  "transcripts": {
+    "Aarav": "transcripts/Aarav_1731201133_MtS_transcript.jsonl",
+    "Jian": "transcripts/Jian_1731201133_MtS_transcript.jsonl",
+    "Akira": "transcripts/Akira_1731201133_MtS_transcript.jsonl",
+    "Fredrik": "transcripts/Fredrik_1731201133_MtS_transcript.jsonl",
+    "Emma": "transcripts/Emma_1731201133_MtS_transcript.jsonl",
+    "Ingrid": "transcripts/Ingrid_1731201133_MtS_transcript.jsonl",
+    "Arjun": "transcripts/Arjun_1731201133_MtS_transcript.jsonl",
+    "James": "transcripts/James_1731201133_MtS_transcript.jsonl"
+  }
+}

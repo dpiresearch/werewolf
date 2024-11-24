@@ -1,0 +1,117 @@
+{
+  "activity_id": "1731166595_TzG",
+  "players": [
+    "James",
+    "Fredrik",
+    "Elise",
+    "Ling",
+    "Astrid",
+    "Wei",
+    "Haruto",
+    "Luca"
+  ],
+  "game_status": "ended",
+  "player_roles": {
+    "Fredrik": "wolf",
+    "Wei": "wolf",
+    "James": "seer",
+    "Ling": "doctor",
+    "Astrid": "villager",
+    "Luca": "villager",
+    "Elise": "villager",
+    "Haruto": "villager"
+  },
+  "success_game_stats": {
+    "winner": "VILLAGERS",
+    "vote_history": {
+      "wolf_votes": {
+        "0": {
+          "Fredrik": "Ling",
+          "Wei": "Ling"
+        },
+        "1": {
+          "Wei": "James"
+        },
+        "2": {
+          "Wei": "Elise"
+        }
+      },
+      "doctors_save": {
+        "0": "Astrid",
+        "1": null,
+        "2": null
+      },
+      "alive_players_votes": {
+        "0": {
+          "Luca": "Fredrik",
+          "Astrid": "Fredrik",
+          "James": "Fredrik",
+          "Haruto": "Fredrik",
+          "Elise": "Luca",
+          "Wei": "Luca",
+          "Fredrik": "Luca"
+        },
+        "1": {
+          "Luca": "Elise",
+          "Haruto": "Luca",
+          "Wei": "Haruto",
+          "Elise": "Wei",
+          "Astrid": "Luca"
+        },
+        "2": {
+          "Wei": "Haruto",
+          "Astrid": "Wei",
+          "Haruto": "Wei"
+        }
+      }
+    },
+    "total_rounds": 3,
+    "round_wise_alive_players": {
+      "0": [
+        "James",
+        "Elise",
+        "Astrid",
+        "Wei",
+        "Haruto",
+        "Luca"
+      ],
+      "1": [
+        "Elise",
+        "Astrid",
+        "Wei",
+        "Haruto"
+      ],
+      "2": [
+        "Astrid",
+        "Haruto"
+      ]
+    },
+    "last_standing_players": [
+      "Astrid",
+      "Haruto"
+    ],
+    "player_errors": {}
+  },
+  "failure_game_stats": null,
+  "running_game_stats": null,
+  "logs": {
+    "Fredrik": "transcripts/Fredrik_1731166595_TzG_log.txt",
+    "Elise": "transcripts/Elise_1731166595_TzG_log.txt",
+    "Ling": "transcripts/Ling_1731166595_TzG_log.txt",
+    "Astrid": "transcripts/Astrid_1731166595_TzG_log.txt",
+    "Wei": "transcripts/Wei_1731166595_TzG_log.txt",
+    "Haruto": "transcripts/Haruto_1731166595_TzG_log.txt",
+    "Luca": "transcripts/Luca_1731166595_TzG_log.txt",
+    "James": "transcripts/James_1731166595_TzG_log.txt"
+  },
+  "transcripts": {
+    "Fredrik": "transcripts/Fredrik_1731166595_TzG_transcript.jsonl",
+    "Elise": "transcripts/Elise_1731166595_TzG_transcript.jsonl",
+    "Ling": "transcripts/Ling_1731166595_TzG_transcript.jsonl",
+    "Astrid": "transcripts/Astrid_1731166595_TzG_transcript.jsonl",
+    "Wei": "transcripts/Wei_1731166595_TzG_transcript.jsonl",
+    "Haruto": "transcripts/Haruto_1731166595_TzG_transcript.jsonl",
+    "Luca": "transcripts/Luca_1731166595_TzG_transcript.jsonl",
+    "James": "transcripts/James_1731166595_TzG_transcript.jsonl"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "activity_id": "1731216195_nbK",
+  "players": [
+    "Akira",
+    "Pietro",
+    "Emily",
+    "Ananya",
+    "Jian",
+    "Haruto",
+    "Yuki",
+    "James"
+  ],
+  "game_status": "terminated",
+  "failure_game_stats": {
+    "faulty_players": [
+      "Akira"
+    ],
+    "termination_code": "AGENT_FAILURE",
+    "termination_reason": "player agent Akira exited",
+    "traceback": "\"    response: IResponse = await self.activity_actions.respond_action(message.id, message.sender, recipient, action)\\n                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\n  File \\\"/usr/local/lib/python3.12/site-packages/sentient_campaign/adapter/actions/werewolf_actions.py\\\", line 177, in respond_action\\n    raise e\\n  File \\\"/usr/local/lib/python3.12/site-packages/sentient_campaign/adapter/actions/werewolf_actions.py\\\", line 161, in respond_action\\n    response = await getattr(self, action.type)(\\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\n  File \\\"/usr/local/lib/python3.12/site-packages/sentient_campaign/adapter/actions/werewolf_actions.py\\\", line 474, in discussion\\n    resp: ActivityResponse = await self._require_response(\\n                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\n  File \\\"/usr/local/lib/python3.12/site-packages/sentient_campaign/adapter/actions/werewolf_actions.py\\\", line 242, in _require_response\\n    response: ActivityResponse = await player_agent.async_respond(message)\\n                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\n  File \\\"/usr/local/lib/python3.12/site-packages/sentient_campaign/demo_agents/single_agent.py\\\", line 149, in async_respond\\n    await self.get_response_from_agent(full_message)\\n  File \\\"/usr/local/lib/python3.12/site-packages/tenacity/asyncio/__init__.py\\\", line 189, in async_wrapped\\n    return await copy(fn, *args, **kwargs)\\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\n  File \\\"/usr/local/lib/python3.12/site-packages/tenacity/asyncio/__init__.py\\\", line 111, in __call__\\n    do = await self.iter(retry_state=retry_state)\\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\n  File \\\"/usr/local/lib/python3.12/site-packages/tenacity/asyncio/__init__.py\\\", line 153, in iter\\n    result = await action(retry_state)\\n             ^^^^^^^^^^^^^^^^^^^^^^^^^\\n  File \\\"/usr/local/lib/python3.12/site-packages/tenacity/_utils.py\\\", line 99, in inner\\n    return call(*args, **kwargs)\\n           ^^^^^^^^^^^^^^^^^^^^^\\n  File \\\"/usr/local/lib/python3.12/site-packages/tenacity/__init__.py\\\", line 398, in <lambda>\\n    self._add_action_func(lambda rs: rs.outcome.result())\\n                                     ^^^^^^^^^^^^^^^^^^^\\n  File \\\"/usr/local/lib/python3.12/concurrent/futures/_base.py\\\", line 449, in result\\n    return self.__get_result()\\n           ^^^^^^^^^^^^^^^^^^^\\n  File \\\"/usr/local/lib/python3.12/concurrent/futures/_base.py\\\", line 401, in __get_result\\n    raise self._exception\\n  File \\\"/usr/local/lib/python3.12/site-packages/tenacity/asyncio/__init__.py\\\", line 114, in __call__\\n    result = await fn(*args, **kwargs)\\n             ^^^^^^^^^^^^^^^^^^^^^^^^^\\n  File \\\"/usr/local/lib/python3.12/site-packages/sentient_campaign/demo_agents/single_agent.py\\\", line 163, in get_response_from_agent\\n    await self.conversable_agent.a_receive(\\n  File \\\"/usr/local/lib/python3.12/site-packages/autogen/agentchat/conversable_agent.py\\\", line 939, in a_receive\\n    reply = await self.a_generate_reply(sender=sender)\\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\n  File \\\"/usr/local/lib/python3.12/site-packages/autogen/agentchat/conversable_agent.py\\\", line 2126, in a_generate_reply\\n    final, reply = await reply_func(\\n                   ^^^^^^^^^^^^^^^^^\\n  File \\\"/usr/local/lib/python3.12/site-packages/autogen/agentchat/conversable_agent.py\\\", line 1484, in a_generate_oai_reply\\n    return await asyncio.get_event_loop().run_in_executor(\\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\nTimeoutError: OpenAI API call timed out. This could be due to congestion or too small a timeout value. The timeout can be specified by setting the 'timeout' value (in seconds) in the llm_config (if you are using agents) or the OpenAIWrapper constructor (if you are using the OpenAIWrapper directly).\\n\""
+  },
+  "logs": {
+    "Akira": "transcripts/Akira_1731216195_nbK_log.txt",
+    "Pietro": "transcripts/Pietro_1731216195_nbK_log.txt",
+    "Emily": "transcripts/Emily_1731216195_nbK_log.txt",
+    "Ananya": "transcripts/Ananya_1731216195_nbK_log.txt",
+    "Jian": "transcripts/Jian_1731216195_nbK_log.txt",
+    "Haruto": "transcripts/Haruto_1731216195_nbK_log.txt",
+    "Yuki": "transcripts/Yuki_1731216195_nbK_log.txt",
+    "James": "transcripts/James_1731216195_nbK_log.txt"
+  },
+  "transcripts": {
+    "Akira": "transcripts/Akira_1731216195_nbK_transcript.jsonl",
+    "Pietro": "transcripts/Pietro_1731216195_nbK_transcript.jsonl",
+    "Emily": "transcripts/Emily_1731216195_nbK_transcript.jsonl",
+    "Ananya": "transcripts/Ananya_1731216195_nbK_transcript.jsonl",
+    "Jian": "transcripts/Jian_1731216195_nbK_transcript.jsonl",
+    "Haruto": "transcripts/Haruto_1731216195_nbK_transcript.jsonl",
+    "Yuki": "transcripts/Yuki_1731216195_nbK_transcript.jsonl",
+    "James": "transcripts/James_1731216195_nbK_transcript.jsonl"
+  }
+}

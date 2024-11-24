@@ -1,0 +1,118 @@
+{
+  "activity_id": "1731184417_YP8",
+  "players": [
+    "James",
+    "Fredrik",
+    "Arjun",
+    "Aarav",
+    "Ananya",
+    "Hiroshi",
+    "Michael",
+    "Luca"
+  ],
+  "game_status": "ended",
+  "player_roles": {
+    "Luca": "wolf",
+    "Aarav": "wolf",
+    "Hiroshi": "seer",
+    "Michael": "doctor",
+    "Ananya": "villager",
+    "James": "villager",
+    "Arjun": "villager",
+    "Fredrik": "villager"
+  },
+  "success_game_stats": {
+    "winner": "VILLAGERS",
+    "vote_history": {
+      "wolf_votes": {
+        "0": {
+          "Aarav": "Hiroshi",
+          "Luca": "Michael"
+        },
+        "1": {
+          "Aarav": "Arjun",
+          "Luca": "James"
+        },
+        "2": {
+          "Luca": "James"
+        }
+      },
+      "doctors_save": {
+        "0": "Ananya",
+        "1": null,
+        "2": null
+      },
+      "alive_players_votes": {
+        "0": {
+          "Fredrik": "Michael",
+          "Michael": "Arjun",
+          "Arjun": "Fredrik",
+          "Ananya": "Michael",
+          "James": "Michael",
+          "Luca": "Michael",
+          "Aarav": "Luca"
+        },
+        "1": {
+          "James": "Aarav",
+          "Luca": "Aarav",
+          "Fredrik": "James",
+          "Aarav": "Fredrik",
+          "Ananya": "Fredrik"
+        },
+        "2": {
+          "Fredrik": "Luca",
+          "Ananya": "Luca",
+          "Luca": "Ananya"
+        }
+      }
+    },
+    "total_rounds": 3,
+    "round_wise_alive_players": {
+      "0": [
+        "James",
+        "Fredrik",
+        "Arjun",
+        "Aarav",
+        "Ananya",
+        "Luca"
+      ],
+      "1": [
+        "James",
+        "Fredrik",
+        "Ananya",
+        "Luca"
+      ],
+      "2": [
+        "Fredrik",
+        "Ananya"
+      ]
+    },
+    "last_standing_players": [
+      "Fredrik",
+      "Ananya"
+    ],
+    "player_errors": {}
+  },
+  "failure_game_stats": null,
+  "running_game_stats": null,
+  "logs": {
+    "Fredrik": "transcripts/Fredrik_1731184417_YP8_log.txt",
+    "Arjun": "transcripts/Arjun_1731184417_YP8_log.txt",
+    "Aarav": "transcripts/Aarav_1731184417_YP8_log.txt",
+    "Ananya": "transcripts/Ananya_1731184417_YP8_log.txt",
+    "Hiroshi": "transcripts/Hiroshi_1731184417_YP8_log.txt",
+    "Michael": "transcripts/Michael_1731184417_YP8_log.txt",
+    "Luca": "transcripts/Luca_1731184417_YP8_log.txt",
+    "James": "transcripts/James_1731184417_YP8_log.txt"
+  },
+  "transcripts": {
+    "Fredrik": "transcripts/Fredrik_1731184417_YP8_transcript.jsonl",
+    "Arjun": "transcripts/Arjun_1731184417_YP8_transcript.jsonl",
+    "Aarav": "transcripts/Aarav_1731184417_YP8_transcript.jsonl",
+    "Ananya": "transcripts/Ananya_1731184417_YP8_transcript.jsonl",
+    "Hiroshi": "transcripts/Hiroshi_1731184417_YP8_transcript.jsonl",
+    "Michael": "transcripts/Michael_1731184417_YP8_transcript.jsonl",
+    "Luca": "transcripts/Luca_1731184417_YP8_transcript.jsonl",
+    "James": "transcripts/James_1731184417_YP8_transcript.jsonl"
+  }
+}

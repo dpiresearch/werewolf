@@ -1,0 +1,106 @@
+{
+  "activity_id": "1731166293_X5B",
+  "players": [
+    "James",
+    "Emma",
+    "Jian",
+    "Sophie",
+    "Yuki",
+    "Fredrik",
+    "Arjun",
+    "Ramesh"
+  ],
+  "game_status": "ended",
+  "player_roles": {
+    "Arjun": "wolf",
+    "Emma": "wolf",
+    "Jian": "seer",
+    "Ramesh": "doctor",
+    "James": "villager",
+    "Yuki": "villager",
+    "Fredrik": "villager",
+    "Sophie": "villager"
+  },
+  "success_game_stats": {
+    "winner": "VILLAGERS",
+    "vote_history": {
+      "wolf_votes": {
+        "0": {
+          "Emma": "James",
+          "Arjun": "Jian"
+        },
+        "1": {
+          "Arjun": "Ramesh"
+        }
+      },
+      "doctors_save": {
+        "0": "Jian",
+        "1": "Arjun"
+      },
+      "alive_players_votes": {
+        "0": {
+          "Arjun": "Jian",
+          "Sophie": "Emma",
+          "Yuki": "Emma",
+          "Ramesh": "Emma",
+          "Fredrik": "Emma",
+          "Jian": "Emma",
+          "Emma": "Jian"
+        },
+        "1": {
+          "Jian": "Arjun",
+          "Yuki": "Arjun",
+          "Arjun": "Jian",
+          "Sophie": "Arjun",
+          "Fredrik": "Arjun"
+        }
+      }
+    },
+    "total_rounds": 2,
+    "round_wise_alive_players": {
+      "0": [
+        "Jian",
+        "Sophie",
+        "Yuki",
+        "Fredrik",
+        "Arjun",
+        "Ramesh"
+      ],
+      "1": [
+        "Jian",
+        "Sophie",
+        "Yuki",
+        "Fredrik"
+      ]
+    },
+    "last_standing_players": [
+      "Jian",
+      "Sophie",
+      "Yuki",
+      "Fredrik"
+    ],
+    "player_errors": {}
+  },
+  "failure_game_stats": null,
+  "running_game_stats": null,
+  "logs": {
+    "Emma": "transcripts/Emma_1731166293_X5B_log.txt",
+    "Jian": "transcripts/Jian_1731166293_X5B_log.txt",
+    "Sophie": "transcripts/Sophie_1731166293_X5B_log.txt",
+    "Yuki": "transcripts/Yuki_1731166293_X5B_log.txt",
+    "Fredrik": "transcripts/Fredrik_1731166293_X5B_log.txt",
+    "Arjun": "transcripts/Arjun_1731166293_X5B_log.txt",
+    "Ramesh": "transcripts/Ramesh_1731166293_X5B_log.txt",
+    "James": "transcripts/James_1731166293_X5B_log.txt"
+  },
+  "transcripts": {
+    "Emma": "transcripts/Emma_1731166293_X5B_transcript.jsonl",
+    "Jian": "transcripts/Jian_1731166293_X5B_transcript.jsonl",
+    "Sophie": "transcripts/Sophie_1731166293_X5B_transcript.jsonl",
+    "Yuki": "transcripts/Yuki_1731166293_X5B_transcript.jsonl",
+    "Fredrik": "transcripts/Fredrik_1731166293_X5B_transcript.jsonl",
+    "Arjun": "transcripts/Arjun_1731166293_X5B_transcript.jsonl",
+    "Ramesh": "transcripts/Ramesh_1731166293_X5B_transcript.jsonl",
+    "James": "transcripts/James_1731166293_X5B_transcript.jsonl"
+  }
+}

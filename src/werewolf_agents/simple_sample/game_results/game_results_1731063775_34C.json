@@ -1,0 +1,123 @@
+{
+  "activity_id": "1731063775_34C",
+  "players": [
+    "James",
+    "Emma",
+    "Haruto",
+    "Ramesh",
+    "Klaus",
+    "Jian",
+    "vihaan",
+    "Ananya"
+  ],
+  "game_status": "ended",
+  "player_roles": {
+    "Klaus": "wolf",
+    "James": "wolf",
+    "Jian": "seer",
+    "Ananya": "doctor",
+    "Emma": "villager",
+    "Haruto": "villager",
+    "vihaan": "villager",
+    "Ramesh": "villager"
+  },
+  "success_game_stats": {
+    "winner": "VILLAGERS",
+    "vote_history": {
+      "wolf_votes": {
+        "0": {
+          "James": "Ramesh",
+          "Klaus": "Jian"
+        },
+        "1": {
+          "James": "Haruto",
+          "Klaus": "Ananya"
+        },
+        "2": {
+          "James": "Haruto"
+        }
+      },
+      "doctors_save": {
+        "0": "Emma",
+        "1": "Haruto",
+        "2": "Emma"
+      },
+      "alive_players_votes": {
+        "0": {
+          "vihaan": "Jian",
+          "Jian": "Haruto",
+          "James": "Jian",
+          "Ananya": "Jian",
+          "Emma": "Jian",
+          "Haruto": "Jian",
+          "Klaus": "Jian"
+        },
+        "1": {
+          "Klaus": "Haruto",
+          "Ananya": "Klaus",
+          "Haruto": "Klaus",
+          "James": "Klaus",
+          "vihaan": "Klaus",
+          "Emma": "Klaus"
+        },
+        "2": {
+          "vihaan": "James",
+          "James": "Ananya",
+          "Ananya": "James",
+          "Emma": "James"
+        }
+      }
+    },
+    "total_rounds": 3,
+    "round_wise_alive_players": {
+      "0": [
+        "James",
+        "Emma",
+        "Haruto",
+        "Klaus",
+        "vihaan",
+        "Ananya"
+      ],
+      "1": [
+        "James",
+        "Emma",
+        "Haruto",
+        "vihaan",
+        "Ananya"
+      ],
+      "2": [
+        "Emma",
+        "vihaan",
+        "Ananya"
+      ]
+    },
+    "last_standing_players": [
+      "Emma",
+      "vihaan",
+      "Ananya"
+    ],
+    "player_errors": {}
+  },
+  "failure_game_stats": null,
+  "running_game_stats": null,
+  "logs": {
+    "Emma": "transcripts/Emma_1731063775_34C_log.txt",
+    "Haruto": "transcripts/Haruto_1731063775_34C_log.txt",
+    "Ramesh": "transcripts/Ramesh_1731063775_34C_log.txt",
+    "Klaus": "transcripts/Klaus_1731063775_34C_log.txt",
+    "Jian": "transcripts/Jian_1731063775_34C_log.txt",
+    "vihaan": "transcripts/vihaan_1731063775_34C_log.txt",
+    "Ananya": "transcripts/Ananya_1731063775_34C_log.txt",
+    "James": "transcripts/James_1731063775_34C_log.txt"
+  },
+  "transcripts": {
+    "Emma": "transcripts/Emma_1731063775_34C_transcript.jsonl",
+    "Haruto": "transcripts/Haruto_1731063775_34C_transcript.jsonl",
+    "Ramesh": "transcripts/Ramesh_1731063775_34C_transcript.jsonl",
+    "Klaus": "transcripts/Klaus_1731063775_34C_transcript.jsonl",
+    "Jian": "transcripts/Jian_1731063775_34C_transcript.jsonl",
+    "vihaan": "transcripts/vihaan_1731063775_34C_transcript.jsonl",
+    "Ananya": "transcripts/Ananya_1731063775_34C_transcript.jsonl",
+    "James": "transcripts/James_1731063775_34C_transcript.jsonl"
+  }
+}

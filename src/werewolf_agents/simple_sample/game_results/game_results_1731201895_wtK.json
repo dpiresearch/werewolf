@@ -1,0 +1,118 @@
+{
+  "activity_id": "1731201895_wtK",
+  "players": [
+    "James",
+    "Jian",
+    "Aarav",
+    "Fredrik",
+    "Haruto",
+    "Ananya",
+    "Helga",
+    "Klaus"
+  ],
+  "game_status": "ended",
+  "player_roles": {
+    "Fredrik": "wolf",
+    "Klaus": "wolf",
+    "Helga": "seer",
+    "Jian": "doctor",
+    "Ananya": "villager",
+    "Haruto": "villager",
+    "James": "villager",
+    "Aarav": "villager"
+  },
+  "success_game_stats": {
+    "winner": "WOLVES",
+    "vote_history": {
+      "wolf_votes": {
+        "0": {
+          "Fredrik": "Jian",
+          "Klaus": "Jian"
+        },
+        "1": {
+          "Fredrik": "Helga",
+          "Klaus": "Helga"
+        },
+        "2": {
+          "Fredrik": "Haruto"
+        }
+      },
+      "doctors_save": {
+        "0": "James",
+        "1": null,
+        "2": null
+      },
+      "alive_players_votes": {
+        "0": {
+          "James": "Aarav",
+          "Ananya": "Aarav",
+          "Fredrik": "Aarav",
+          "Haruto": "Aarav",
+          "Klaus": "Aarav",
+          "Aarav": "Klaus",
+          "Helga": "Aarav"
+        },
+        "1": {
+          "Ananya": "Fredrik",
+          "Klaus": "Haruto",
+          "Haruto": "Klaus",
+          "James": "Klaus",
+          "Fredrik": "James"
+        },
+        "2": {
+          "Fredrik": "Ananya",
+          "Ananya": "James",
+          "James": "Ananya"
+        }
+      }
+    },
+    "total_rounds": 3,
+    "round_wise_alive_players": {
+      "0": [
+        "James",
+        "Fredrik",
+        "Haruto",
+        "Ananya",
+        "Helga",
+        "Klaus"
+      ],
+      "1": [
+        "James",
+        "Fredrik",
+        "Haruto",
+        "Ananya"
+      ],
+      "2": [
+        "James",
+        "Fredrik"
+      ]
+    },
+    "last_standing_players": [
+      "James",
+      "Fredrik"
+    ],
+    "player_errors": {}
+  },
+  "failure_game_stats": null,
+  "running_game_stats": null,
+  "logs": {
+    "Jian": "transcripts/Jian_1731201895_wtK_log.txt",
+    "Aarav": "transcripts/Aarav_1731201895_wtK_log.txt",
+    "Fredrik": "transcripts/Fredrik_1731201895_wtK_log.txt",
+    "Haruto": "transcripts/Haruto_1731201895_wtK_log.txt",
+    "Ananya": "transcripts/Ananya_1731201895_wtK_log.txt",
+    "Helga": "transcripts/Helga_1731201895_wtK_log.txt",
+    "Klaus": "transcripts/Klaus_1731201895_wtK_log.txt",
+    "James": "transcripts/James_1731201895_wtK_log.txt"
+  },
+  "transcripts": {
+    "Jian": "transcripts/Jian_1731201895_wtK_transcript.jsonl",
+    "Aarav": "transcripts/Aarav_1731201895_wtK_transcript.jsonl",
+    "Fredrik": "transcripts/Fredrik_1731201895_wtK_transcript.jsonl",
+    "Haruto": "transcripts/Haruto_1731201895_wtK_transcript.jsonl",
+    "Ananya": "transcripts/Ananya_1731201895_wtK_transcript.jsonl",
+    "Helga": "transcripts/Helga_1731201895_wtK_transcript.jsonl",
+    "Klaus": "transcripts/Klaus_1731201895_wtK_transcript.jsonl",
+    "James": "transcripts/James_1731201895_wtK_transcript.jsonl"
+  }
+}

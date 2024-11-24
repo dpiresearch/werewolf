@@ -1,0 +1,42 @@
+{
+  "activity_id": "1731063057_bbW",
+  "players": [
+    "Emily",
+    "Pietro",
+    "Haruto",
+    "Helga",
+    "vihaan",
+    "Sophie",
+    "Anna",
+    "James"
+  ],
+  "game_status": "terminated",
+  "failure_game_stats": {
+    "faulty_players": [
+      "Sophie"
+    ],
+    "termination_code": "AGENT_FAILURE",
+    "termination_reason": "player agent Sophie exited",
+    "traceback": "\"           ^^^^^^^^^^^^^^^^^^^\\n  File \\\"/usr/local/lib/python3.12/concurrent/futures/_base.py\\\", line 401, in __get_result\\n    raise self._exception\\n  File \\\"/usr/local/lib/python3.12/site-packages/tenacity/asyncio/__init__.py\\\", line 114, in __call__\\n    result = await fn(*args, **kwargs)\\n             ^^^^^^^^^^^^^^^^^^^^^^^^^\\n  File \\\"/usr/local/lib/python3.12/site-packages/sentient_campaign/demo_agents/single_agent.py\\\", line 163, in get_response_from_agent\\n    await self.conversable_agent.a_receive(\\n  File \\\"/usr/local/lib/python3.12/site-packages/autogen/agentchat/conversable_agent.py\\\", line 939, in a_receive\\n    reply = await self.a_generate_reply(sender=sender)\\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\n  File \\\"/usr/local/lib/python3.12/site-packages/autogen/agentchat/conversable_agent.py\\\", line 2126, in a_generate_reply\\n    final, reply = await reply_func(\\n                   ^^^^^^^^^^^^^^^^^\\n  File \\\"/usr/local/lib/python3.12/site-packages/autogen/agentchat/conversable_agent.py\\\", line 1484, in a_generate_oai_reply\\n    return await asyncio.get_event_loop().run_in_executor(\\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\n  File \\\"/usr/local/lib/python3.12/concurrent/futures/thread.py\\\", line 58, in run\\n    result = self.fn(*self.args, **self.kwargs)\\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\n  File \\\"/usr/local/lib/python3.12/site-packages/autogen/agentchat/conversable_agent.py\\\", line 1482, in _generate_oai_reply\\n    return self.generate_oai_reply(*args, **kwargs)\\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\n  File \\\"/usr/local/lib/python3.12/site-packages/autogen/agentchat/conversable_agent.py\\\", line 1424, in generate_oai_reply\\n    extracted_response = self._generate_oai_reply_from_client(\\n                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\n  File \\\"/usr/local/lib/python3.12/site-packages/autogen/agentchat/conversable_agent.py\\\", line 1443, in _generate_oai_reply_from_client\\n    response = llm_client.create(\\n               ^^^^^^^^^^^^^^^^^^\\n  File \\\"/usr/local/lib/python3.12/site-packages/autogen/oai/client.py\\\", line 831, in create\\n    response = client.create(params)\\n               ^^^^^^^^^^^^^^^^^^^^^\\n  File \\\"/usr/local/lib/python3.12/site-packages/autogen/oai/client.py\\\", line 400, in create\\n    response = completions.create(**params)\\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\n  File \\\"/usr/local/lib/python3.12/site-packages/openai/_utils/_utils.py\\\", line 274, in wrapper\\n    return func(*args, **kwargs)\\n           ^^^^^^^^^^^^^^^^^^^^^\\n  File \\\"/usr/local/lib/python3.12/site-packages/openai/resources/chat/completions.py\\\", line 815, in create\\n    return self._post(\\n           ^^^^^^^^^^^\\n  File \\\"/usr/local/lib/python3.12/site-packages/openai/_base_client.py\\\", line 1277, in post\\n    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))\\n                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\n  File \\\"/usr/local/lib/python3.12/site-packages/openai/_base_client.py\\\", line 954, in request\\n    return self._request(\\n           ^^^^^^^^^^^^^^\\n  File \\\"/usr/local/lib/python3.12/site-packages/openai/_base_client.py\\\", line 1058, in _request\\n    raise self._make_status_error_from_response(err.response) from None\\nopenai.NotFoundError: 404 Not Found\\n\""
+  },
+  "logs": {
+    "Emily": "transcripts/Emily_1731063057_bbW_log.txt",
+    "Pietro": "transcripts/Pietro_1731063057_bbW_log.txt",
+    "Haruto": "transcripts/Haruto_1731063057_bbW_log.txt",
+    "Helga": "transcripts/Helga_1731063057_bbW_log.txt",
+    "vihaan": "transcripts/vihaan_1731063057_bbW_log.txt",
+    "Sophie": "transcripts/Sophie_1731063057_bbW_log.txt",
+    "Anna": "transcripts/Anna_1731063057_bbW_log.txt",
+    "James": "transcripts/James_1731063057_bbW_log.txt"
+  },
+  "transcripts": {
+    "Emily": "transcripts/Emily_1731063057_bbW_transcript.jsonl",
+    "Pietro": "transcripts/Pietro_1731063057_bbW_transcript.jsonl",
+    "Haruto": "transcripts/Haruto_1731063057_bbW_transcript.jsonl",
+    "Helga": "transcripts/Helga_1731063057_bbW_transcript.jsonl",
+    "vihaan": "transcripts/vihaan_1731063057_bbW_transcript.jsonl",
+    "Sophie": "transcripts/Sophie_1731063057_bbW_transcript.jsonl",
+    "Anna": "transcripts/Anna_1731063057_bbW_transcript.jsonl",
+    "James": "transcripts/James_1731063057_bbW_transcript.jsonl"
+  }
+}

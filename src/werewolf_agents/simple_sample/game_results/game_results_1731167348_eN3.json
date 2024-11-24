@@ -1,0 +1,106 @@
+{
+  "activity_id": "1731167348_eN3",
+  "players": [
+    "James",
+    "John",
+    "Pietro",
+    "Akira",
+    "Lars",
+    "Jian",
+    "Ramesh",
+    "Ling"
+  ],
+  "game_status": "ended",
+  "player_roles": {
+    "Ramesh": "wolf",
+    "Lars": "wolf",
+    "Ling": "seer",
+    "Jian": "doctor",
+    "Pietro": "villager",
+    "James": "villager",
+    "Akira": "villager",
+    "John": "villager"
+  },
+  "success_game_stats": {
+    "winner": "VILLAGERS",
+    "vote_history": {
+      "wolf_votes": {
+        "0": {
+          "Lars": "Akira",
+          "Ramesh": "Akira"
+        },
+        "1": {
+          "Lars": "James"
+        }
+      },
+      "doctors_save": {
+        "0": "Lars",
+        "1": "Pietro"
+      },
+      "alive_players_votes": {
+        "0": {
+          "John": "Ramesh",
+          "Ramesh": "James",
+          "Jian": "Ramesh",
+          "Ling": "Ramesh",
+          "Lars": "Ramesh",
+          "James": "Ramesh",
+          "Pietro": "Ramesh"
+        },
+        "1": {
+          "Jian": "Lars",
+          "Pietro": "Lars",
+          "Ling": "Lars",
+          "John": "Lars",
+          "Lars": "Pietro"
+        }
+      }
+    },
+    "total_rounds": 2,
+    "round_wise_alive_players": {
+      "0": [
+        "James",
+        "John",
+        "Pietro",
+        "Lars",
+        "Jian",
+        "Ling"
+      ],
+      "1": [
+        "John",
+        "Pietro",
+        "Jian",
+        "Ling"
+      ]
+    },
+    "last_standing_players": [
+      "John",
+      "Pietro",
+      "Jian",
+      "Ling"
+    ],
+    "player_errors": {}
+  },
+  "failure_game_stats": null,
+  "running_game_stats": null,
+  "logs": {
+    "John": "transcripts/John_1731167348_eN3_log.txt",
+    "Pietro": "transcripts/Pietro_1731167348_eN3_log.txt",
+    "Akira": "transcripts/Akira_1731167348_eN3_log.txt",
+    "Lars": "transcripts/Lars_1731167348_eN3_log.txt",
+    "Jian": "transcripts/Jian_1731167348_eN3_log.txt",
+    "Ramesh": "transcripts/Ramesh_1731167348_eN3_log.txt",
+    "Ling": "transcripts/Ling_1731167348_eN3_log.txt",
+    "James": "transcripts/James_1731167348_eN3_log.txt"
+  },
+  "transcripts": {
+    "John": "transcripts/John_1731167348_eN3_transcript.jsonl",
+    "Pietro": "transcripts/Pietro_1731167348_eN3_transcript.jsonl",
+    "Akira": "transcripts/Akira_1731167348_eN3_transcript.jsonl",
+    "Lars": "transcripts/Lars_1731167348_eN3_transcript.jsonl",
+    "Jian": "transcripts/Jian_1731167348_eN3_transcript.jsonl",
+    "Ramesh": "transcripts/Ramesh_1731167348_eN3_transcript.jsonl",
+    "Ling": "transcripts/Ling_1731167348_eN3_transcript.jsonl",
+    "James": "transcripts/James_1731167348_eN3_transcript.jsonl"
+  }
+}

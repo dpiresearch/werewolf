@@ -1,0 +1,125 @@
+{
+  "activity_id": "1731167726_KaB",
+  "players": [
+    "James",
+    "Abhimanyu",
+    "Arjun",
+    "Kiara",
+    "Ramesh",
+    "Wei",
+    "Pietro",
+    "Emily"
+  ],
+  "game_status": "ended",
+  "player_roles": {
+    "Arjun": "wolf",
+    "Wei": "wolf",
+    "Ramesh": "seer",
+    "Pietro": "doctor",
+    "Kiara": "villager",
+    "James": "villager",
+    "Abhimanyu": "villager",
+    "Emily": "villager"
+  },
+  "success_game_stats": {
+    "winner": "VILLAGERS",
+    "vote_history": {
+      "wolf_votes": {
+        "0": {
+          "Arjun": "James",
+          "Wei": "James"
+        },
+        "1": {
+          "Arjun": "Emily",
+          "Wei": "Emily"
+        },
+        "2": {
+          "Arjun": "Ramesh"
+        }
+      },
+      "doctors_save": {
+        "0": "James",
+        "1": null,
+        "2": null
+      },
+      "alive_players_votes": {
+        "0": {
+          "Ramesh": "Pietro",
+          "Pietro": "Arjun",
+          "Kiara": "Pietro",
+          "Wei": "Pietro",
+          "Arjun": "Pietro",
+          "James": "Pietro",
+          "Emily": "Pietro",
+          "Abhimanyu": "Pietro"
+        },
+        "1": {
+          "Abhimanyu": "Wei",
+          "Kiara": "Wei",
+          "Ramesh": "Wei",
+          "Arjun": "Ramesh",
+          "Wei": "Arjun",
+          "James": "Wei"
+        },
+        "2": {
+          "James": "Arjun",
+          "Kiara": "Arjun",
+          "Arjun": "Abhimanyu",
+          "Abhimanyu": "Arjun"
+        }
+      }
+    },
+    "total_rounds": 3,
+    "round_wise_alive_players": {
+      "0": [
+        "James",
+        "Abhimanyu",
+        "Arjun",
+        "Kiara",
+        "Ramesh",
+        "Wei",
+        "Emily"
+      ],
+      "1": [
+        "James",
+        "Abhimanyu",
+        "Arjun",
+        "Kiara",
+        "Ramesh"
+      ],
+      "2": [
+        "James",
+        "Abhimanyu",
+        "Kiara"
+      ]
+    },
+    "last_standing_players": [
+      "James",
+      "Abhimanyu",
+      "Kiara"
+    ],
+    "player_errors": {}
+  },
+  "failure_game_stats": null,
+  "running_game_stats": null,
+  "logs": {
+    "Abhimanyu": "transcripts/Abhimanyu_1731167726_KaB_log.txt",
+    "Arjun": "transcripts/Arjun_1731167726_KaB_log.txt",
+    "Kiara": "transcripts/Kiara_1731167726_KaB_log.txt",
+    "Ramesh": "transcripts/Ramesh_1731167726_KaB_log.txt",
+    "Wei": "transcripts/Wei_1731167726_KaB_log.txt",
+    "Pietro": "transcripts/Pietro_1731167726_KaB_log.txt",
+    "Emily": "transcripts/Emily_1731167726_KaB_log.txt",
+    "James": "transcripts/James_1731167726_KaB_log.txt"
+  },
+  "transcripts": {
+    "Abhimanyu": "transcripts/Abhimanyu_1731167726_KaB_transcript.jsonl",
+    "Arjun": "transcripts/Arjun_1731167726_KaB_transcript.jsonl",
+    "Kiara": "transcripts/Kiara_1731167726_KaB_transcript.jsonl",
+    "Ramesh": "transcripts/Ramesh_1731167726_KaB_transcript.jsonl",
+    "Wei": "transcripts/Wei_1731167726_KaB_transcript.jsonl",
+    "Pietro": "transcripts/Pietro_1731167726_KaB_transcript.jsonl",
+    "Emily": "transcripts/Emily_1731167726_KaB_transcript.jsonl",
+    "James": "transcripts/James_1731167726_KaB_transcript.jsonl"
+  }
+}

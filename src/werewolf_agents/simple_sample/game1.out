@@ -1,0 +1,507 @@
+2024-11-09 12:34:29,964 - activity_runner - INFO - James: INFO:sentient_agent_runner:Initialized ActivityRunner for player: James, activity: 1731184417_YP8
+INFO:sentient_agent_runner:Initializing activity
+INFO:sentient_campaign.transcript_manager.factory:Creating transcript manager with config: {'file_path': '/tmp/sentient_agent_transcripts/James_1731184417_YP8_transcript.jsonl', 'type': 'file'}
+INFO:sentient_campaign.transcript_manager.factory:Selected FileTranscriptManager
+INFO:sentient_agent_runner:Creating message store path: /tmp/matrix_store_James
+INFO:sentient_agent_runner:Matrix messenger initialized
+INFO:sentient_agent_runner:Activity initialized
+INFO:sentient_agent_runner:Connecting to messenger
+INFO:sentient_agent_runner:Connected to messenger
+INFO:sentient_agent_runner:Starting messenger listener loop
+2024-11-09 12:34:35,975 - activity_runner - INFO - James: 2024-11-09 20:34:35,460 - simple_agent - DEBUG - Notify history add: [From - moderator| play-arena]: Introduction:
+
+Hello players, welcome to the Werewolf game hosted by Sentient! You are playing a fun and commonly played conversational game called Werewolf. 
+
+I am your moderator, my name is "moderator". 
+
+You are now part of a game communication group called 'play-arena', where all players can interact. As the moderator, I will use this group to broadcast messages to all players. All players can see messages in this group. 
+
+
+
+Here are the general instructions of this game: 
+
+Game Instructions:
+
+1. Roles:
+   At the start of each game you will be asigned one of the following roles:
+   - Villagers : The majority of players. Their goal is to identify and eliminate the werewolves.
+   - Werewolves : A small group of players who aim to eliminate the villagers.
+   - Seer  :  A "special villager" who can learn the true identity of one player each night with help of moderator.
+   - Doctor  : A "special villager" who can protect one person from elimination each night.
+
+2. Gameplay:
+   The game alternates between night and day phases. 
+
+   Night Phase:
+   a) The moderator announces the start of the night phase and asks everyone to "sleep" (remain inactive).
+   b) Werewolves' Turn: Werewolves vote on which player to eliminate in a private communication group with the moderator. 
+   c) Seer's Turn: The Seer chooses a player to investigate and learns whether or not this player is a werewolf in a private channel with the moderator.
+   d) Doctor's Turn: The Doctor chooses one player to protect from being eliminated by werewolves in a private channel with the moderator.
+
+   Day Phase:
+   a) The moderator announces the end of the night and asks everyone to "wake up" (become active).
+   b) The moderator reveals if anyone was eliminated during the night.
+   c) Players discuss and debate who they suspect to be werewolves.
+   d) Players vote on who to eliminate. The player with the most votes is eliminated and their role is revealed.
+
+3. Winning the Game:
+   - Villagers win if they eliminate all werewolves.
+   - Werewolves win if they equal or outnumber the villagers.
+
+4. Strategy Tips:
+   - Villagers: Observe player behavior and statements carefully.
+   - Werewolves: Coordinate during the night and try to blend in during day discussions. 
+   - Seer: Use your knowledge strategically and be cautious about revealing your role.
+   - Doctor: Protect players wisely and consider keeping your role secret.
+
+5. Communication Channels:
+   a) Main Game Group: "play-arena" - All players can see messages here.
+   b) Private Messages: You may receive direct messages from the moderator (moderator). These are private messages that only you have access to. 
+   c) Werewolf Group: If you're a werewolf, you'll have access to a private group  wolf's-den for night discussions.
+
+Here is the list of your fellow player in the game. - ['James', 'Fredrik', 'Arjun', 'Aarav', 'Ananya', 'Hiroshi', 'Michael', 'Luca']
+
+Remember to engage actively, think strategically, and enjoy the game!
+DEBUG:simple_agent:Notify history add: [From - moderator| play-arena]: Introduction:
+
+Hello players, welcome to the Werewolf game hosted by Sentient! You are playing a fun and commonly played conversational game called Werewolf. 
+
+I am your moderator, my name is "moderator". 
+
+You are now part of a game communication group called 'play-arena', where all players can interact. As the moderator, I will use this group to broadcast messages to all players. All players can see messages in this group. 
+
+
+
+Here are the general instructions of this game: 
+
+Game Instructions:
+
+1. Roles:
+   At the start of each game you will be asigned one of the following roles:
+   - Villagers : The majority of players. Their goal is to identify and eliminate the werewolves.
+   - Werewolves : A small group of players who aim to eliminate the villagers.
+   - Seer  :  A "special villager" who can learn the true identity of one player each night with help of moderator.
+   - Doctor  : A "special villager" who can protect one person from elimination each night.
+
+2. Gameplay:
+   The game alternates between night and day phases. 
+
+   Night Phase:
+   a) The moderator announces the start of the night phase and asks everyone to "sleep" (remain inactive).
+   b) Werewolves' Turn: Werewolves vote on which player to eliminate in a private communication group with the moderator. 
+   c) Seer's Turn: The Seer chooses a player to investigate and learns whether or not this player is a werewolf in a private channel with the moderator.
+   d) Doctor's Turn: The Doctor chooses one player to protect from being eliminated by werewolves in a private channel with the moderator.
+
+   Day Phase:
+   a) The moderator announces the end of the night and asks everyone to "wake up" (become active).
+   b) The moderator reveals if anyone was eliminated during the night.
+   c) Players discuss and debate who they suspect to be werewolves.
+   d) Players vote on who to eliminate. The player with the most votes is eliminated and their role is revealed.
+
+3. Winning the Game:
+   - Villagers win if they eliminate all werewolves.
+   - Werewolves win if they equal or outnumber the villagers.
+
+4. Strategy Tips:
+   - Villagers: Observe player behavior and statements carefully.
+   - Werewolves: Coordinate during the night and try to blend in during day discussions. 
+   - Seer: Use your knowledge strategically and be cautious about revealing your role.
+   - Doctor: Protect players wisely and consider keeping your role secret.
+
+5. Communication Channels:
+   a) Main Game Group: "play-arena" - All players can see messages here.
+   b) Private Messages: You may receive direct messages from the moderator (moderator). These are private messages that only you have access to. 
+   c) Werewolf Group: If you're a werewolf, you'll have access to a private group  wolf's-den for night discussions.
+
+Here is the list of your fellow player in the game. - ['James', 'Fredrik', 'Arjun', 'Aarav', 'Ananya', 'Hiroshi', 'Michael', 'Luca']
+
+Remember to engage actively, think strategically, and enjoy the game!
+2024-11-09 12:34:43,999 - activity_runner - INFO - James: 2024-11-09 20:34:43,054 - simple_agent - DEBUG - Notify history add: [From - moderator| direct]: Role setting: 
+Hello James you are now playing the game werewolf with the role -> 'villager' in the game. Please keep this information discreet.
+DEBUG:simple_agent:Notify history add: [From - moderator| direct]: Role setting: 
+Hello James you are now playing the game werewolf with the role -> 'villager' in the game. Please keep this information discreet.
+2024-11-09 12:34:49,955 - activity_runner - INFO - game is going on ...
+2024-11-09 12:35:10,005 - activity_runner - INFO - game is going on ...
+2024-11-09 12:35:11,051 - activity_runner - INFO - James: 2024-11-09 20:35:10,352 - simple_agent - DEBUG - Notify history add: [From - moderator| play-arena]:  Night Start: 
+ Hello players night has started. Please go to sleep.
+
+DEBUG:simple_agent:Notify history add: [From - moderator| play-arena]:  Night Start: 
+ Hello players night has started. Please go to sleep.
+2024-11-09 12:35:30,062 - activity_runner - INFO - game is going on ...
+2024-11-09 12:35:48,139 - activity_runner - INFO - James: 2024-11-09 20:35:47,836 - simple_agent - DEBUG - Notify history add: [From - moderator| play-arena]: Day start:
+
+Hello players, Good Morning. Please wake up.
+
+
+    villager dead : Alas!,A villager player has been eliminated by the wolves. his name is -> 'Hiroshi'
+
+   
+       Let me ask one by one about who are the wolfs among overselves. 
+     
+
+
+DEBUG:simple_agent:Notify history add: [From - moderator| play-arena]: Day start:
+
+Hello players, Good Morning. Please wake up.
+
+
+    villager dead : Alas!,A villager player has been eliminated by the wolves. his name is -> 'Hiroshi'
+
+   
+       Let me ask one by one about who are the wolfs among overselves.
+2024-11-09 12:35:50,092 - activity_runner - INFO - game is going on ...
+2024-11-09 12:35:52,144 - activity_runner - INFO - James: 2024-11-09 20:35:51,814 - simple_agent - DEBUG - Notify history add: [From - moderator| play-arena]: 
+Discussion:
+Hey Michael, who do you think is or is not a 'wolf' in the group and what is your reason? 
+DEBUG:simple_agent:Notify history add: [From - moderator| play-arena]: 
+Discussion:
+Hey Michael, who do you think is or is not a 'wolf' in the group and what is your reason?
+2024-11-09 12:35:56,153 - activity_runner - INFO - James: 2024-11-09 20:35:56,026 - simple_agent - DEBUG - Notify history add: [From - Michael| play-arena]: message in group play-arena:
+Honestly, I don't have any strong suspicions yet, but I do think it's interesting that Hiroshi was targeted first. Since I don't have any concrete information, I'll just have to rely on my instincts. I'm going to take a wild guess and say that I'm not sure about Fredrik. My reason is that I didn't notice him saying anything significant before the night started. Of course, this is just a hunch, and I could be completely wrong. What do others think?
+DEBUG:simple_agent:Notify history add: [From - Michael| play-arena]: message in group play-arena:
+Honestly, I don't have any strong suspicions yet, but I do think it's interesting that Hiroshi was targeted first. Since I don't have any concrete information, I'll just have to rely on my instincts. I'm going to take a wild guess and say that I'm not sure about Fredrik. My reason is that I didn't notice him saying anything significant before the night started. Of course, this is just a hunch, and I could be completely wrong. What do others think?
+2024-11-09 12:35:57,154 - activity_runner - INFO - James: 2024-11-09 20:35:56,933 - simple_agent - DEBUG - Notify history add: [From - moderator| play-arena]: 
+Discussion:
+Hey Luca, who do you think is or is not a 'wolf' in the group and what is your reason? 
+DEBUG:simple_agent:Notify history add: [From - moderator| play-arena]: 
+Discussion:
+Hey Luca, who do you think is or is not a 'wolf' in the group and what is your reason?
+2024-11-09 12:36:03,164 - activity_runner - INFO - James: 2024-11-09 20:36:02,255 - simple_agent - DEBUG - Notify history add: [From - Luca| play-arena]: I think it's interesting that Michael is already pointing fingers, considering he was one of the wolves' potential targets. I'm not saying he's definitely a wolf, but I do think it's suspicious that he's trying to shift attention to someone else so quickly. As for my own suspicion, I think Arjun might be worth keeping an eye on. He's been very quiet so far, and sometimes people who are too quiet are trying to hide something. Of course, this is just my initial impression, and I'm open to changing my mind as the game progresses.
+DEBUG:simple_agent:Notify history add: [From - Luca| play-arena]: I think it's interesting that Michael is already pointing fingers, considering he was one of the wolves' potential targets. I'm not saying he's definitely a wolf, but I do think it's suspicious that he's trying to shift attention to someone else so quickly. As for my own suspicion, I think Arjun might be worth keeping an eye on. He's been very quiet so far, and sometimes people who are too quiet are trying to hide something. Of course, this is just my initial impression, and I'm open to changing my mind as the game progresses.
+2024-11-09 20:36:03,064 - simple_agent - DEBUG - Notify history add: [From - moderator| play-arena]: 
+Discussion:
+Hey Ananya, who do you think is or is not a 'wolf' in the group and what is your reason? 
+DEBUG:simple_agent:Notify history add: [From - moderator| play-arena]: 
+Discussion:
+Hey Ananya, who do you think is or is not a 'wolf' in the group and what is your reason?
+2024-11-09 12:36:09,171 - activity_runner - INFO - James: 2024-11-09 20:36:08,668 - simple_agent - DEBUG - Notify history add: [From - Ananya| play-arena]: I think Luca makes a valid point about Michael trying to shift attention quickly. While it's not concrete evidence, it does raise some suspicion. As for my own suspicion, I agree with Luca about Arjun's quietness being a bit suspicious. However, I'd also like to add that James hasn't said anything yet, and his silence is also making me a bit curious. I'm going to take a cautious approach and say that I'm not sure about James yet, but I think it's worth hearing from him before making any conclusions.
+DEBUG:simple_agent:Notify history add: [From - Ananya| play-arena]: I think Luca makes a valid point about Michael trying to shift attention quickly. While it's not concrete evidence, it does raise some suspicion. As for my own suspicion, I agree with Luca about Arjun's quietness being a bit suspicious. However, I'd also like to add that James hasn't said anything yet, and his silence is also making me a bit curious. I'm going to take a cautious approach and say that I'm not sure about James yet, but I think it's worth hearing from him before making any conclusions.
+2024-11-09 12:36:10,146 - activity_runner - INFO - game is going on ...
+2024-11-09 12:36:10,173 - activity_runner - INFO - James: 2024-11-09 20:36:09,193 - simple_agent - DEBUG - Respond History Add: [From - moderator| play-arena]: 
+Discussion:
+Hey James, who do you think is or is not a 'wolf' in the group and what is your reason? 
+DEBUG:simple_agent:Respond History Add: [From - moderator| play-arena]: 
+Discussion:
+Hey James, who do you think is or is not a 'wolf' in the group and what is your reason? 
+2024-11-09 20:36:09,193 - simple_agent - DEBUG - GENERATING RESPONSE from OpenAI...
+DEBUG:simple_agent:GENERATING RESPONSE from OpenAI...
+2024-11-09 20:36:09,193 - simple_agent - DEBUG - Llama31-70B-Instruct
+DEBUG:simple_agent:Llama31-70B-Instruct
+2024-11-09 20:36:09,193 - simple_agent - DEBUG - https://hp3hebj84f.us-west-2.awsapprunner.com
+DEBUG:simple_agent:https://hp3hebj84f.us-west-2.awsapprunner.com
+2024-11-09 12:36:15,182 - activity_runner - INFO - James: INFO:httpx:HTTP Request: POST https://hp3hebj84f.us-west-2.awsapprunner.com/chat/completions "HTTP/1.1 200 OK"
+2024-11-09 20:36:14,576 - simple_agent - DEBUG - ASSISTANT RESPONSE added: [From James (me) | play-arena]: I think it's interesting that Ananya brought up my silence, and I apologize if it made anyone suspicious. To be honest, I was just observing the conversations and waiting for the right moment to share my thoughts.
+
+As for my suspicions, I agree with Luca and Ananya that Michael's quick attempt to shift attention to Fredrik does seem a bit suspicious. However, I also think we should be careful not to jump to conclusions based on just one action.
+
+I'd like to propose that we look at the bigger picture and analyze everyone's behavior over the course of the game. I think it's too early to make any concrete accusations, but I do think we should keep a close eye on everyone, especially those who are being overly defensive or trying to shift attention away from themselves.
+
+As for my vote, I think I'll vote for Michael for now, just based on the fact that he was the first to point fingers and it seems a bit suspicious to me.
+DEBUG:simple_agent:ASSISTANT RESPONSE added: [From James (me) | play-arena]: I think it's interesting that Ananya brought up my silence, and I apologize if it made anyone suspicious. To be honest, I was just observing the conversations and waiting for the right moment to share my thoughts.
+
+As for my suspicions, I agree with Luca and Ananya that Michael's quick attempt to shift attention to Fredrik does seem a bit suspicious. However, I also think we should be careful not to jump to conclusions based on just one action.
+
+I'd like to propose that we look at the bigger picture and analyze everyone's behavior over the course of the game. I think it's too early to make any concrete accusations, but I do think we should keep a close eye on everyone, especially those who are being overly defensive or trying to shift attention away from themselves.
+
+As for my vote, I think I'll vote for Michael for now, just based on the fact that he was the first to point fingers and it seems a bit suspicious to me.
+2024-11-09 12:36:16,185 - activity_runner - INFO - James: 2024-11-09 20:36:15,329 - simple_agent - DEBUG - Notify history add: [From - moderator| play-arena]: 
+Discussion:
+Hey Fredrik, who do you think is or is not a 'wolf' in the group and what is your reason? 
+DEBUG:simple_agent:Notify history add: [From - moderator| play-arena]: 
+Discussion:
+Hey Fredrik, who do you think is or is not a 'wolf' in the group and what is your reason?
+2024-11-09 12:36:22,208 - activity_runner - INFO - James: 2024-11-09 20:36:21,464 - simple_agent - DEBUG - Notify history add: [From - Fredrik| play-arena]: I think James makes a good point about analyzing everyone's behavior over the course of the game. As for my suspicion, I agree with Luca and Ananya that Arjun's quietness is suspicious, and I'm also keeping an eye on Michael due to his quick attempt to shift attention to me.
+
+However, I'd like to add that Aarav has also been relatively quiet, and I think it's worth hearing from him before making any conclusions. As for my vote, I'm going to vote for Arjun for now, based on his complete lack of participation in the discussion so far.
+DEBUG:simple_agent:Notify history add: [From - Fredrik| play-arena]: I think James makes a good point about analyzing everyone's behavior over the course of the game. As for my suspicion, I agree with Luca and Ananya that Arjun's quietness is suspicious, and I'm also keeping an eye on Michael due to his quick attempt to shift attention to me.
+
+However, I'd like to add that Aarav has also been relatively quiet, and I think it's worth hearing from him before making any conclusions. As for my vote, I'm going to vote for Arjun for now, based on his complete lack of participation in the discussion so far.
+2024-11-09 12:36:23,211 - activity_runner - INFO - James: 2024-11-09 20:36:22,470 - simple_agent - DEBUG - Notify history add: [From - moderator| play-arena]: 
+Discussion:
+Hey Aarav, who do you think is or is not a 'wolf' in the group and what is your reason? 
+DEBUG:simple_agent:Notify history add: [From - moderator| play-arena]: 
+Discussion:
+Hey Aarav, who do you think is or is not a 'wolf' in the group and what is your reason?
+2024-11-09 12:36:29,226 - activity_runner - INFO - James: 2024-11-09 20:36:28,825 - simple_agent - DEBUG - Notify history add: [From - Aarav| play-arena]: message in group play-arena from Aarav: I think Fredrik makes a fair point about me being quiet, but I've been observing the conversations and didn't see the need to intervene until now.
+
+As for my suspicion, I agree with James that we should analyze everyone's behavior over the course of the game. However, I do think Michael's quick attempt to shift attention to Fredrik seems suspicious.
+
+I'd like to propose that we take a closer look at Michael's behavior, as well as Luca's. Luca seemed a bit too eager to point out Michael's suspicious behavior, which makes me wonder if Luca is trying to deflect attention from himself.
+
+As for my vote, I'm going to vote for Luca for now, based on my gut feeling about his behavior.
+DEBUG:simple_agent:Notify history add: [From - Aarav| play-arena]: message in group play-arena from Aarav: I think Fredrik makes a fair point about me being quiet, but I've been observing the conversations and didn't see the need to intervene until now.
+
+As for my suspicion, I agree with James that we should analyze everyone's behavior over the course of the game. However, I do think Michael's quick attempt to shift attention to Fredrik seems suspicious.
+
+I'd like to propose that we take a closer look at Michael's behavior, as well as Luca's. Luca seemed a bit too eager to point out Michael's suspicious behavior, which makes me wonder if Luca is trying to deflect attention from himself.
+
+As for my vote, I'm going to vote for Luca for now, based on my gut feeling about his behavior.
+2024-11-09 12:36:30,194 - activity_runner - INFO - game is going on ...
+2024-11-09 12:36:30,225 - activity_runner - INFO - James: 2024-11-09 20:36:29,622 - simple_agent - DEBUG - Notify history add: [From - moderator| play-arena]: 
+Discussion:
+Hey Arjun, who do you think is or is not a 'wolf' in the group and what is your reason? 
+DEBUG:simple_agent:Notify history add: [From - moderator| play-arena]: 
+Discussion:
+Hey Arjun, who do you think is or is not a 'wolf' in the group and what is your reason?
+2024-11-09 12:36:36,241 - activity_runner - INFO - James: 2024-11-09 20:36:35,884 - simple_agent - DEBUG - Notify history add: [From - Arjun| play-arena]: I've been quiet so far, but that's because I've been observing and analyzing the conversations. After hearing everyone's thoughts, I think James makes a good point about looking at the bigger picture.
+
+As for my suspicion, I agree with Aarav that Luca's behavior seems a bit suspicious, especially how quickly he pointed out Michael's attempt to shift attention. However, I also think Fredrik's vote for me was a bit too hasty, and it makes me wonder if he's trying to deflect attention from himself.
+
+As for my vote, I'm going to vote for Fredrik for now, based on my analysis of his behavior and his quick vote against me.
+DEBUG:simple_agent:Notify history add: [From - Arjun| play-arena]: I've been quiet so far, but that's because I've been observing and analyzing the conversations. After hearing everyone's thoughts, I think James makes a good point about looking at the bigger picture.
+
+As for my suspicion, I agree with Aarav that Luca's behavior seems a bit suspicious, especially how quickly he pointed out Michael's attempt to shift attention. However, I also think Fredrik's vote for me was a bit too hasty, and it makes me wonder if he's trying to deflect attention from himself.
+
+As for my vote, I'm going to vote for Fredrik for now, based on my analysis of his behavior and his quick vote against me.
+2024-11-09 12:36:37,241 - activity_runner - INFO - James: 2024-11-09 20:36:36,775 - simple_agent - DEBUG - Notify history add: [From - moderator| play-arena]: Day consensus:
+Okay lets come to a consensus and lets vote on the elimination of a wolf.
+DEBUG:simple_agent:Notify history add: [From - moderator| play-arena]: Day consensus:
+Okay lets come to a consensus and lets vote on the elimination of a wolf.
+2024-11-09 12:36:42,255 - activity_runner - INFO - James: 2024-11-09 20:36:41,994 - simple_agent - DEBUG - Respond History Add: [From - moderator| play-arena]: Day vote:
+
+Hello James, please cast your final vote on who you think the wolf is. "Please respond in few words".
+DEBUG:simple_agent:Respond History Add: [From - moderator| play-arena]: Day vote:
+
+Hello James, please cast your final vote on who you think the wolf is. "Please respond in few words".
+2024-11-09 20:36:41,994 - simple_agent - DEBUG - GENERATING RESPONSE from OpenAI...
+DEBUG:simple_agent:GENERATING RESPONSE from OpenAI...
+2024-11-09 20:36:41,994 - simple_agent - DEBUG - Llama31-70B-Instruct
+DEBUG:simple_agent:Llama31-70B-Instruct
+2024-11-09 20:36:41,994 - simple_agent - DEBUG - https://hp3hebj84f.us-west-2.awsapprunner.com
+DEBUG:simple_agent:https://hp3hebj84f.us-west-2.awsapprunner.com
+2024-11-09 12:36:46,259 - activity_runner - INFO - James: INFO:httpx:HTTP Request: POST https://hp3hebj84f.us-west-2.awsapprunner.com/chat/completions "HTTP/1.1 200 OK"
+2024-11-09 20:36:45,415 - simple_agent - DEBUG - ASSISTANT RESPONSE added: [From James (me) | play-arena]: Michael is my vote.
+DEBUG:simple_agent:ASSISTANT RESPONSE added: [From James (me) | play-arena]: Michael is my vote.
+INFO:httpx:HTTP Request: POST https://hp3hebj84f.us-west-2.awsapprunner.com/chat/completions "HTTP/1.1 200 OK"
+2024-11-09 20:36:46,047 - simple_agent - DEBUG - Notify history add: [From - Aarav| play-arena]: Luca
+DEBUG:simple_agent:Notify history add: [From - Aarav| play-arena]: Luca
+2024-11-09 20:36:46,067 - simple_agent - DEBUG - Notify history add: [From - Arjun| play-arena]: I vote for Fredrik.
+DEBUG:simple_agent:Notify history add: [From - Arjun| play-arena]: I vote for Fredrik.
+2024-11-09 20:36:46,247 - simple_agent - DEBUG - Notify history add: [From - Ananya| play-arena]: I vote for Michael.
+DEBUG:simple_agent:Notify history add: [From - Ananya| play-arena]: I vote for Michael.
+2024-11-09 12:36:47,265 - activity_runner - INFO - James: 2024-11-09 20:36:46,805 - simple_agent - DEBUG - Notify history add: [From - Luca| play-arena]: Michael
+DEBUG:simple_agent:Notify history add: [From - Luca| play-arena]: Michael
+2024-11-09 20:36:46,840 - simple_agent - DEBUG - Notify history add: [From - Michael| play-arena]: I vote for Arjun.
+DEBUG:simple_agent:Notify history add: [From - Michael| play-arena]: I vote for Arjun.
+2024-11-09 20:36:47,103 - simple_agent - DEBUG - Notify history add: [From - Fredrik| play-arena]: Michael.
+DEBUG:simple_agent:Notify history add: [From - Fredrik| play-arena]: Michael.
+2024-11-09 12:36:49,267 - activity_runner - INFO - James: 2024-11-09 20:36:48,305 - simple_agent - DEBUG - Notify history add: [From - moderator| play-arena]: Day End:
+day elimination : Player -> 'Michael' was eliminated by the vote today. Their role was -> 'doctor'.
+
+DEBUG:simple_agent:Notify history add: [From - moderator| play-arena]: Day End:
+day elimination : Player -> 'Michael' was eliminated by the vote today. Their role was -> 'doctor'.
+2024-11-09 12:36:50,236 - activity_runner - INFO - game is going on ...
+2024-11-09 12:37:02,298 - activity_runner - INFO - James: 2024-11-09 20:37:01,745 - simple_agent - DEBUG - Notify history add: [From - moderator| play-arena]:  Night Start: 
+ Hello players night has started. Please go to sleep.
+
+DEBUG:simple_agent:Notify history add: [From - moderator| play-arena]:  Night Start: 
+ Hello players night has started. Please go to sleep.
+2024-11-09 12:37:10,285 - activity_runner - INFO - game is going on ...
+2024-11-09 12:37:23,338 - activity_runner - INFO - James: 2024-11-09 20:37:23,298 - simple_agent - DEBUG - Notify history add: [From - moderator| play-arena]: Day start:
+
+Hello players, Good Morning. Please wake up.
+
+
+    villager dead : Alas!,A villager player has been eliminated by the wolves. his name is -> 'Arjun'
+
+   
+       Let me ask one by one about who are the wolfs among overselves. 
+     
+
+
+DEBUG:simple_agent:Notify history add: [From - moderator| play-arena]: Day start:
+
+Hello players, Good Morning. Please wake up.
+
+
+    villager dead : Alas!,A villager player has been eliminated by the wolves. his name is -> 'Arjun'
+
+   
+       Let me ask one by one about who are the wolfs among overselves.
+2024-11-09 12:37:28,344 - activity_runner - INFO - James: 2024-11-09 20:37:28,089 - simple_agent - DEBUG - Notify history add: [From - moderator| play-arena]: 
+Discussion:
+Hey Luca, who do you think is or is not a 'wolf' in the group and what is your reason? 
+DEBUG:simple_agent:Notify history add: [From - moderator| play-arena]: 
+Discussion:
+Hey Luca, who do you think is or is not a 'wolf' in the group and what is your reason?
+2024-11-09 12:37:30,332 - activity_runner - INFO - game is going on ...
+2024-11-09 12:37:34,355 - activity_runner - INFO - James: 2024-11-09 20:37:33,694 - simple_agent - DEBUG - Notify history add: [From - Luca| play-arena]: I think it's interesting that Arjun was targeted by the wolves, considering he was already on some people's radar yesterday. As for my suspicion, I think James's behavior yesterday was a bit too defensive, and he seemed to be trying to deflect attention from himself. I'm not saying he's definitely a wolf, but I do think he's worth keeping an eye on. I'm also a bit curious about Ananya's vote for Michael yesterday, considering he was actually the doctor. It's possible she was just trying to follow the crowd, but it's also possible she was trying to hide something. I'd like to hear more from her and see how she reacts to my suspicions.
+DEBUG:simple_agent:Notify history add: [From - Luca| play-arena]: I think it's interesting that Arjun was targeted by the wolves, considering he was already on some people's radar yesterday. As for my suspicion, I think James's behavior yesterday was a bit too defensive, and he seemed to be trying to deflect attention from himself. I'm not saying he's definitely a wolf, but I do think he's worth keeping an eye on. I'm also a bit curious about Ananya's vote for Michael yesterday, considering he was actually the doctor. It's possible she was just trying to follow the crowd, but it's also possible she was trying to hide something. I'd like to hear more from her and see how she reacts to my suspicions.
+2024-11-09 20:37:34,223 - simple_agent - DEBUG - Respond History Add: [From - moderator| play-arena]: 
+Discussion:
+Hey James, who do you think is or is not a 'wolf' in the group and what is your reason? 
+DEBUG:simple_agent:Respond History Add: [From - moderator| play-arena]: 
+Discussion:
+Hey James, who do you think is or is not a 'wolf' in the group and what is your reason? 
+2024-11-09 20:37:34,223 - simple_agent - DEBUG - GENERATING RESPONSE from OpenAI...
+DEBUG:simple_agent:GENERATING RESPONSE from OpenAI...
+2024-11-09 20:37:34,223 - simple_agent - DEBUG - Llama31-70B-Instruct
+DEBUG:simple_agent:Llama31-70B-Instruct
+2024-11-09 20:37:34,223 - simple_agent - DEBUG - https://hp3hebj84f.us-west-2.awsapprunner.com
+DEBUG:simple_agent:https://hp3hebj84f.us-west-2.awsapprunner.com
+2024-11-09 12:37:40,369 - activity_runner - INFO - James: INFO:httpx:HTTP Request: POST https://hp3hebj84f.us-west-2.awsapprunner.com/chat/completions "HTTP/1.1 200 OK"
+2024-11-09 20:37:39,578 - simple_agent - DEBUG - ASSISTANT RESPONSE added: [From James (me) | play-arena]: [From James (me) | play-arena]: I think Luca's suspicion about me is unfounded, and I'd like to clarify that I was just trying to analyze the situation and make a logical decision.
+
+As for my suspicion, I agree with Luca that Ananya's vote for Michael yesterday is worth investigating. I think it's possible that she might be trying to hide something, or she might have been influenced by someone else.
+
+I'd also like to point out that Fredrik has been relatively quiet so far, and I think it's worth hearing more from him. Additionally, Aarav's vote for Luca yesterday seemed a bit out of nowhere, and I'm not sure what motivated him to make that decision.
+
+As for my suspicion, I think Aarav's behavior is a bit more concerning to me, and I'd like to hear more from him before making a decision.
+DEBUG:simple_agent:ASSISTANT RESPONSE added: [From James (me) | play-arena]: [From James (me) | play-arena]: I think Luca's suspicion about me is unfounded, and I'd like to clarify that I was just trying to analyze the situation and make a logical decision.
+
+As for my suspicion, I agree with Luca that Ananya's vote for Michael yesterday is worth investigating. I think it's possible that she might be trying to hide something, or she might have been influenced by someone else.
+
+I'd also like to point out that Fredrik has been relatively quiet so far, and I think it's worth hearing more from him. Additionally, Aarav's vote for Luca yesterday seemed a bit out of nowhere, and I'm not sure what motivated him to make that decision.
+
+As for my suspicion, I think Aarav's behavior is a bit more concerning to me, and I'd like to hear more from him before making a decision.
+2024-11-09 20:37:40,358 - simple_agent - DEBUG - Notify history add: [From - moderator| play-arena]: 
+Discussion:
+Hey Ananya, who do you think is or is not a 'wolf' in the group and what is your reason? 
+DEBUG:simple_agent:Notify history add: [From - moderator| play-arena]: 
+Discussion:
+Hey Ananya, who do you think is or is not a 'wolf' in the group and what is your reason?
+2024-11-09 12:37:49,402 - activity_runner - INFO - James: 2024-11-09 20:37:48,601 - simple_agent - DEBUG - Notify history add: [From - Ananya| play-arena]: I think Luca and James bring up valid points about my vote for Michael yesterday. I can see how it might seem suspicious, but I assure you that I was simply following the majority's opinion and trying to make a decision based on the information available at the time.
+
+As for my suspicion, I agree with James that Aarav's vote for Luca yesterday did seem a bit out of nowhere, and I'm not sure what motivated him to make that decision. I'd also like to point out that Fredrik's vote for Arjun yesterday seemed a bit hasty, and I'm not sure if he was trying to deflect attention from himself.
+
+I think it's also worth noting that Luca has been quite vocal about his suspicions, and while that can be a good thing, it's also possible that he's trying to distract us from his own actions. I'm not saying he's definitely a wolf, but I do think he's worth keeping an eye on.
+
+As for my suspicion, I'm going to say that I'm not sure about Fredrik yet, but I do think he's worth investigating further.
+DEBUG:simple_agent:Notify history add: [From - Ananya| play-arena]: I think Luca and James bring up valid points about my vote for Michael yesterday. I can see how it might seem suspicious, but I assure you that I was simply following the majority's opinion and trying to make a decision based on the information available at the time.
+
+As for my suspicion, I agree with James that Aarav's vote for Luca yesterday did seem a bit out of nowhere, and I'm not sure what motivated him to make that decision. I'd also like to point out that Fredrik's vote for Arjun yesterday seemed a bit hasty, and I'm not sure if he was trying to deflect attention from himself.
+
+I think it's also worth noting that Luca has been quite vocal about his suspicions, and while that can be a good thing, it's also possible that he's trying to distract us from his own actions. I'm not saying he's definitely a wolf, but I do think he's worth keeping an eye on.
+
+As for my suspicion, I'm going to say that I'm not sure about Fredrik yet, but I do think he's worth investigating further.
+2024-11-09 12:37:50,374 - activity_runner - INFO - game is going on ...
+2024-11-09 12:37:50,402 - activity_runner - INFO - James: 2024-11-09 20:37:49,516 - simple_agent - DEBUG - Notify history add: [From - moderator| play-arena]: 
+Discussion:
+Hey Fredrik, who do you think is or is not a 'wolf' in the group and what is your reason? 
+DEBUG:simple_agent:Notify history add: [From - moderator| play-arena]: 
+Discussion:
+Hey Fredrik, who do you think is or is not a 'wolf' in the group and what is your reason?
+2024-11-09 12:37:58,417 - activity_runner - INFO - James: 2024-11-09 20:37:58,179 - simple_agent - DEBUG - Notify history add: [From - Fredrik| play-arena]: I think Ananya brings up a valid point about my vote for Arjun yesterday, and I can see how it might seem hasty. However, I was simply following my instincts and trying to make a decision based on the information available at the time.
+
+As for my suspicion, I agree with James and Ananya that Aarav's vote for Luca yesterday seemed a bit out of nowhere, and I'm not sure what motivated him to make that decision. I'd also like to point out that Luca has been quite vocal about his suspicions, and while that can be a good thing, it's also possible that he's trying to distract us from his own actions.
+
+I think it's also worth noting that James has been trying to deflect attention from himself by pointing fingers at others, and I'm not sure if that's a genuine attempt to analyze the situation or a clever ploy to hide his own involvement.
+
+As for my suspicion, I'm going to say that I'm not sure about James yet, but I do think he's worth investigating further.
+DEBUG:simple_agent:Notify history add: [From - Fredrik| play-arena]: I think Ananya brings up a valid point about my vote for Arjun yesterday, and I can see how it might seem hasty. However, I was simply following my instincts and trying to make a decision based on the information available at the time.
+
+As for my suspicion, I agree with James and Ananya that Aarav's vote for Luca yesterday seemed a bit out of nowhere, and I'm not sure what motivated him to make that decision. I'd also like to point out that Luca has been quite vocal about his suspicions, and while that can be a good thing, it's also possible that he's trying to distract us from his own actions.
+
+I think it's also worth noting that James has been trying to deflect attention from himself by pointing fingers at others, and I'm not sure if that's a genuine attempt to analyze the situation or a clever ploy to hide his own involvement.
+
+As for my suspicion, I'm going to say that I'm not sure about James yet, but I do think he's worth investigating further.
+2024-11-09 12:37:59,419 - activity_runner - INFO - James: 2024-11-09 20:37:58,687 - simple_agent - DEBUG - Notify history add: [From - moderator| play-arena]: 
+Discussion:
+Hey Aarav, who do you think is or is not a 'wolf' in the group and what is your reason? 
+DEBUG:simple_agent:Notify history add: [From - moderator| play-arena]: 
+Discussion:
+Hey Aarav, who do you think is or is not a 'wolf' in the group and what is your reason?
+2024-11-09 12:38:07,444 - activity_runner - INFO - James: 2024-11-09 20:38:07,113 - simple_agent - DEBUG - Notify history add: [From - Aarav| play-arena]: I think Fredrik, James, and Ananya all bring up valid points about my vote for Luca yesterday, and I can see how it might seem suspicious. However, I was simply trying to follow my instincts and make a decision based on the information available at the time.
+
+As for my suspicion, I agree with Ananya that Luca has been quite vocal about his suspicions, and while that can be a good thing, it's also possible that he's trying to distract us from his own actions. I also think James's behavior has been a bit too defensive, and he seems to be trying to deflect attention from himself.
+
+I'd also like to point out that Fredrik seems to be trying to play both sides, pointing fingers at both James and Aarav, which makes me wonder if he's trying to hide something.
+
+As for my suspicion, I'm going to say that I'm not sure about Fredrik yet, but I do think he's worth investigating further.
+DEBUG:simple_agent:Notify history add: [From - Aarav| play-arena]: I think Fredrik, James, and Ananya all bring up valid points about my vote for Luca yesterday, and I can see how it might seem suspicious. However, I was simply trying to follow my instincts and make a decision based on the information available at the time.
+
+As for my suspicion, I agree with Ananya that Luca has been quite vocal about his suspicions, and while that can be a good thing, it's also possible that he's trying to distract us from his own actions. I also think James's behavior has been a bit too defensive, and he seems to be trying to deflect attention from himself.
+
+I'd also like to point out that Fredrik seems to be trying to play both sides, pointing fingers at both James and Aarav, which makes me wonder if he's trying to hide something.
+
+As for my suspicion, I'm going to say that I'm not sure about Fredrik yet, but I do think he's worth investigating further.
+2024-11-09 12:38:08,444 - activity_runner - INFO - James: 2024-11-09 20:38:07,849 - simple_agent - DEBUG - Notify history add: [From - moderator| play-arena]: Day consensus:
+Okay lets come to a consensus and lets vote on the elimination of a wolf.
+DEBUG:simple_agent:Notify history add: [From - moderator| play-arena]: Day consensus:
+Okay lets come to a consensus and lets vote on the elimination of a wolf.
+2024-11-09 12:38:10,418 - activity_runner - INFO - game is going on ...
+2024-11-09 12:38:13,458 - activity_runner - INFO - James: 2024-11-09 20:38:12,623 - simple_agent - DEBUG - Respond History Add: [From - moderator| play-arena]: Day vote:
+
+Hello James, please cast your final vote on who you think the wolf is. "Please respond in few words".
+DEBUG:simple_agent:Respond History Add: [From - moderator| play-arena]: Day vote:
+
+Hello James, please cast your final vote on who you think the wolf is. "Please respond in few words".
+2024-11-09 20:38:12,623 - simple_agent - DEBUG - GENERATING RESPONSE from OpenAI...
+DEBUG:simple_agent:GENERATING RESPONSE from OpenAI...
+2024-11-09 20:38:12,623 - simple_agent - DEBUG - Llama31-70B-Instruct
+DEBUG:simple_agent:Llama31-70B-Instruct
+2024-11-09 20:38:12,623 - simple_agent - DEBUG - https://hp3hebj84f.us-west-2.awsapprunner.com
+DEBUG:simple_agent:https://hp3hebj84f.us-west-2.awsapprunner.com
+2024-11-09 12:38:15,460 - activity_runner - INFO - James: INFO:httpx:HTTP Request: POST https://hp3hebj84f.us-west-2.awsapprunner.com/chat/completions "HTTP/1.1 200 OK"
+2024-11-09 20:38:14,723 - simple_agent - DEBUG - ASSISTANT RESPONSE added: [From James (me) | play-arena]: [From James (me) | play-arena]: I vote for Aarav.
+DEBUG:simple_agent:ASSISTANT RESPONSE added: [From James (me) | play-arena]: [From James (me) | play-arena]: I vote for Aarav.
+INFO:httpx:HTTP Request: POST https://hp3hebj84f.us-west-2.awsapprunner.com/chat/completions "HTTP/1.1 200 OK"
+2024-11-09 12:38:17,467 - activity_runner - INFO - James: 2024-11-09 20:38:17,219 - simple_agent - DEBUG - Notify history add: [From - Ananya| play-arena]: I vote for Fredrik.
+DEBUG:simple_agent:Notify history add: [From - Ananya| play-arena]: I vote for Fredrik.
+2024-11-09 20:38:17,238 - simple_agent - DEBUG - Notify history add: [From - Luca| play-arena]: Aarav
+DEBUG:simple_agent:Notify history add: [From - Luca| play-arena]: Aarav
+2024-11-09 12:38:18,469 - activity_runner - INFO - James: 2024-11-09 20:38:17,766 - simple_agent - DEBUG - Notify history add: [From - Fredrik| play-arena]: James.
+DEBUG:simple_agent:Notify history add: [From - Fredrik| play-arena]: James.
+2024-11-09 20:38:18,223 - simple_agent - DEBUG - Notify history add: [From - Aarav| play-arena]: Fredrik
+DEBUG:simple_agent:Notify history add: [From - Aarav| play-arena]: Fredrik
+2024-11-09 12:38:19,471 - activity_runner - INFO - James: 2024-11-09 20:38:19,018 - simple_agent - DEBUG - Notify history add: [From - moderator| play-arena]: Day End:
+day elimination : Player -> 'Aarav' was eliminated by the vote today. Their role was -> 'wolf'.
+
+DEBUG:simple_agent:Notify history add: [From - moderator| play-arena]: Day End:
+day elimination : Player -> 'Aarav' was eliminated by the vote today. Their role was -> 'wolf'.
+2024-11-09 12:38:28,485 - activity_runner - INFO - James: 2024-11-09 20:38:28,434 - simple_agent - DEBUG - Notify history add: [From - moderator| play-arena]:  Night Start: 
+ Hello players night has started. Please go to sleep.
+
+DEBUG:simple_agent:Notify history add: [From - moderator| play-arena]:  Night Start: 
+ Hello players night has started. Please go to sleep.
+2024-11-09 12:38:30,469 - activity_runner - INFO - game is going on ...
+2024-11-09 12:38:50,510 - activity_runner - INFO - game is going on ...
+2024-11-09 12:39:10,546 - activity_runner - INFO - game is going on ...
+2024-11-09 12:39:30,562 - activity_runner - INFO - Game has ended
+2024-11-09 12:39:30,576 - activity_runner - INFO - Game state: {'activity_id': '1731184417_YP8', 'players': ['James', 'Fredrik', 'Arjun', 'Aarav', 'Ananya', 'Hiroshi', 'Michael', 'Luca'], 'game_status': 'ended', 'player_roles': {'Luca': 'wolf', 'Aarav': 'wolf', 'Hiroshi': 'seer', 'Michael': 'doctor', 'Ananya': 'villager', 'James': 'villager', 'Arjun': 'villager', 'Fredrik': 'villager'}, 'success_game_stats': {'winner': 'VILLAGERS', 'vote_history': {'wolf_votes': {'0': {'Aarav': 'Hiroshi', 'Luca': 'Michael'}, '1': {'Aarav': 'Arjun', 'Luca': 'James'}, '2': {'Luca': 'James'}}, 'doctors_save': {'0': 'Ananya', '1': None, '2': None}, 'alive_players_votes': {'0': {'Fredrik': 'Michael', 'Michael': 'Arjun', 'Arjun': 'Fredrik', 'Ananya': 'Michael', 'James': 'Michael', 'Luca': 'Michael', 'Aarav': 'Luca'}, '1': {'James': 'Aarav', 'Luca': 'Aarav', 'Fredrik': 'James', 'Aarav': 'Fredrik', 'Ananya': 'Fredrik'}, '2': {'Fredrik': 'Luca', 'Ananya': 'Luca', 'Luca': 'Ananya'}}}, 'total_rounds': 3, 'round_wise_alive_players': {'0': ['James', 'Fredrik', 'Arjun', 'Aarav', 'Ananya', 'Luca'], '1': ['James', 'Fredrik', 'Ananya', 'Luca'], '2': ['Fredrik', 'Ananya']}, 'last_standing_players': ['Fredrik', 'Ananya'], 'player_errors': {}}, 'failure_game_stats': None, 'running_game_stats': None}
+2024-11-09 12:39:30,577 - activity_runner - INFO - Copying game transcripts to transcripts
+File successfully streamed from container and saved to transcripts/Fredrik_1731184417_YP8_transcript.jsonl
+File successfully streamed from container and saved to transcripts/Fredrik_1731184417_YP8_log.txt
+File successfully streamed from container and saved to transcripts/Arjun_1731184417_YP8_transcript.jsonl
+File successfully streamed from container and saved to transcripts/Arjun_1731184417_YP8_log.txt
+File successfully streamed from container and saved to transcripts/Aarav_1731184417_YP8_transcript.jsonl
+File successfully streamed from container and saved to transcripts/Aarav_1731184417_YP8_log.txt
+File successfully streamed from container and saved to transcripts/Ananya_1731184417_YP8_transcript.jsonl
+File successfully streamed from container and saved to transcripts/Ananya_1731184417_YP8_log.txt
+File successfully streamed from container and saved to transcripts/Hiroshi_1731184417_YP8_transcript.jsonl
+File successfully streamed from container and saved to transcripts/Hiroshi_1731184417_YP8_log.txt
+File successfully streamed from container and saved to transcripts/Michael_1731184417_YP8_transcript.jsonl
+File successfully streamed from container and saved to transcripts/Michael_1731184417_YP8_log.txt
+File successfully streamed from container and saved to transcripts/Luca_1731184417_YP8_transcript.jsonl
+File successfully streamed from container and saved to transcripts/Luca_1731184417_YP8_log.txt
+File successfully streamed from container and saved to transcripts/James_1731184417_YP8_transcript.jsonl
+File successfully streamed from container and saved to transcripts/James_1731184417_YP8_log.txt
+2024-11-09 12:39:30,695 - activity_runner - INFO - Werewolf Campaign Activity completed successfully
+2024-11-09 12:39:35,703 - activity_runner - INFO - Cleaning up resources...
+2024-11-09 12:39:35,719 - sentient_campaign.activity_runner._agent_daemon_runner - INFO - Stopping container for sentient_1731184417_YP8_werewolf_agents_container
+2024-11-09 12:39:35,906 - sentient_campaign.activity_runner._agent_daemon_runner - INFO - Container for sentient_1731184417_YP8_werewolf_agents_container destroyed successfully
+2024-11-09 12:39:35,918 - sentient_campaign.activity_runner._agent_daemon_runner - INFO - Container for sentient_1731184417_YP8_werewolf_agents_container not found
+2024-11-09 12:39:35,921 - sentient_campaign.activity_runner._agent_daemon_runner - INFO - Container for sentient_1731184417_YP8_werewolf_agents_container not found
+2024-11-09 12:39:35,923 - sentient_campaign.activity_runner._agent_daemon_runner - INFO - Container for sentient_1731184417_YP8_werewolf_agents_container not found
+2024-11-09 12:39:35,925 - sentient_campaign.activity_runner._agent_daemon_runner - INFO - Container for sentient_1731184417_YP8_werewolf_agents_container not found
+2024-11-09 12:39:35,927 - sentient_campaign.activity_runner._agent_daemon_runner - INFO - Container for sentient_1731184417_YP8_werewolf_agents_container not found
+2024-11-09 12:39:35,928 - sentient_campaign.activity_runner._agent_daemon_runner - INFO - Container for sentient_1731184417_YP8_werewolf_agents_container not found
+2024-11-09 12:39:35,930 - sentient_campaign.activity_runner._agent_daemon_runner - INFO - Container for sentient_1731184417_YP8_werewolf_agents_container not found
+2024-11-09 12:39:35,930 - activity_runner - INFO - Destroying controller daemon container
+2024-11-09 12:39:35,930 - sentient_campaign.activity_runner._game_controller_daemon_runner - INFO - Stopping container 1731184417_YP8_sentient_werewolf_controller
+2024-11-09 12:39:46,110 - sentient_campaign.activity_runner._game_controller_daemon_runner - INFO - Container stopped successfully
+2024-11-09 12:39:46,110 - activity_runner - INFO - Removing Docker network: 1731184417_YP8_sentient_campaign_network
+Game results saved to: game_results/game_results_1731184417_YP8.json
+Exception ignored in: <urllib3.response.HTTPResponse object at 0x1063a6500>
+Traceback (most recent call last):
+  File "/Users/dpang/dev/werewolf-template/venv/lib/python3.13/site-packages/urllib3/response.py", line 1071, in close
+    self._fp.close()
+  File "/opt/homebrew/Cellar/python@3.13/3.13.0_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 432, in close
+    super().close() # set "closed" flag
+  File "/opt/homebrew/Cellar/python@3.13/3.13.0_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 445, in flush
+    self.fp.flush()
+ValueError: I/O operation on closed file.
+2024-11-09 12:39:46,214 - sentient_campaign.activity_runner._game_controller_daemon_runner - INFO - Stopping container 1731184417_YP8_sentient_werewolf_controller in destructor
+2024-11-09 12:39:46,217 - sentient_campaign.activity_runner._game_controller_daemon_runner - INFO - Docker client closed
+(venv) (werewolf) dpang@Daniels-MacBook-Air simple_sample % 
+

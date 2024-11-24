@@ -1,0 +1,118 @@
+{
+  "activity_id": "1731196725_CLa",
+  "players": [
+    "James",
+    "Wei",
+    "Olivia",
+    "Ling",
+    "Fredrik",
+    "Emma",
+    "Aarav",
+    "Abhimanyu"
+  ],
+  "game_status": "ended",
+  "player_roles": {
+    "Fredrik": "wolf",
+    "Abhimanyu": "wolf",
+    "Emma": "seer",
+    "James": "doctor",
+    "Wei": "villager",
+    "Aarav": "villager",
+    "Olivia": "villager",
+    "Ling": "villager"
+  },
+  "success_game_stats": {
+    "winner": "VILLAGERS",
+    "vote_history": {
+      "wolf_votes": {
+        "0": {
+          "Fredrik": "James",
+          "Abhimanyu": "Wei"
+        },
+        "1": {
+          "Fredrik": "Olivia",
+          "Abhimanyu": "Aarav"
+        },
+        "2": {
+          "Fredrik": "Emma"
+        }
+      },
+      "doctors_save": {
+        "0": "Wei",
+        "1": null,
+        "2": null
+      },
+      "alive_players_votes": {
+        "0": {
+          "Fredrik": "Ling",
+          "Abhimanyu": "Ling",
+          "Emma": "Ling",
+          "Ling": "Olivia",
+          "Aarav": "Ling",
+          "Olivia": "Ling",
+          "Wei": "Ling"
+        },
+        "1": {
+          "Fredrik": "Aarav",
+          "Emma": "Abhimanyu",
+          "Wei": "Abhimanyu",
+          "Aarav": "Abhimanyu",
+          "Abhimanyu": "Aarav"
+        },
+        "2": {
+          "Fredrik": "Wei",
+          "Wei": "Fredrik",
+          "Aarav": "Fredrik"
+        }
+      }
+    },
+    "total_rounds": 3,
+    "round_wise_alive_players": {
+      "0": [
+        "Wei",
+        "Olivia",
+        "Fredrik",
+        "Emma",
+        "Aarav",
+        "Abhimanyu"
+      ],
+      "1": [
+        "Wei",
+        "Fredrik",
+        "Emma",
+        "Aarav"
+      ],
+      "2": [
+        "Wei",
+        "Aarav"
+      ]
+    },
+    "last_standing_players": [
+      "Wei",
+      "Aarav"
+    ],
+    "player_errors": {}
+  },
+  "failure_game_stats": null,
+  "running_game_stats": null,
+  "logs": {
+    "Wei": "transcripts/Wei_1731196725_CLa_log.txt",
+    "Olivia": "transcripts/Olivia_1731196725_CLa_log.txt",
+    "Ling": "transcripts/Ling_1731196725_CLa_log.txt",
+    "Fredrik": "transcripts/Fredrik_1731196725_CLa_log.txt",
+    "Emma": "transcripts/Emma_1731196725_CLa_log.txt",
+    "Aarav": "transcripts/Aarav_1731196725_CLa_log.txt",
+    "Abhimanyu": "transcripts/Abhimanyu_1731196725_CLa_log.txt",
+    "James": "transcripts/James_1731196725_CLa_log.txt"
+  },
+  "transcripts": {
+    "Wei": "transcripts/Wei_1731196725_CLa_transcript.jsonl",
+    "Olivia": "transcripts/Olivia_1731196725_CLa_transcript.jsonl",
+    "Ling": "transcripts/Ling_1731196725_CLa_transcript.jsonl",
+    "Fredrik": "transcripts/Fredrik_1731196725_CLa_transcript.jsonl",
+    "Emma": "transcripts/Emma_1731196725_CLa_transcript.jsonl",
+    "Aarav": "transcripts/Aarav_1731196725_CLa_transcript.jsonl",
+    "Abhimanyu": "transcripts/Abhimanyu_1731196725_CLa_transcript.jsonl",
+    "James": "transcripts/James_1731196725_CLa_transcript.jsonl"
+  }
+}
